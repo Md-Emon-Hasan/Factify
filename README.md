@@ -1,162 +1,233 @@
-# **Fake News Detection System Using 7 Types of LSTM**
+# Factify: AI News Classifier with Deep Learning
+The proliferation of fake news presents significant challenges to information integrity. This system automatically classifies news articles as "real" or "fake" with 99% accuracy.
+Modern social media platforms and online news outlets enable the rapid dissemination of information, but they also facilitate the widespread propagation of intentionally false or misleading content—commonly known as fake news. This phenomenon undermines public trust, distorts democratic processes, and can lead to tangible harms such as public health scares or financial market disruptions.
 
-![cover](https://github.com/user-attachments/assets/568561fb-f33c-4f89-af94-b9f785f097db)
+The core problem of this project is to automatically distinguish between fake and real news articles based solely on their textual content.
 
-## **Table of Contents**
-1. [Introduction](#1-introduction)  
-2. [Objective](#2-objective)  
-3. [Technologies Used](#3-technologies-used)  
-4. [System Architecture](#4-system-architecture)  
-5. [Dataset Description](#5-dataset-description)  
-6. [Model Design and Training](#6-model-design-and-training)  
-7. [Application Workflow](#7-application-workflow)  
-8. [Deployment](#8-deployment)  
-9. [Performance Metrics](#9-performance-metrics)  
-10. [License](#10-license)  
-11. [Contact Information](#11-contact-information)  
+![Image](https://github.com/user-attachments/assets/dd36efc1-a097-4d90-a5bf-f0c3896bedfa)
 
 ---
 
-## **1. Introduction**
-The **Fake News Detection System** is a machine learning application aimed at addressing the critical issue of misinformation in digital media. Leveraging deep learning techniques, particularly **LSTM (CNN-LSTM hybrid model)** networks, this system is designed to classify news articles or headlines as either real or fake, providing users with a reliable tool for verifying information.
+### Key Features
+- **98.5% Accuracy** with LSTM-GRU architecture
+- **End-to-end CI/CD pipeline** with Docker containers
+- **Web interface** with HTML/CSS frontend
+- **Microservice architecture** for scalability
+- **multiple neural network** architectures
+- **Flask API** for integration
 
 ---
 
-## **2. Objective**
-The primary objective of this project is to create an automated system capable of:
-1. Identifying fake news articles and headlines using NLP (Natural Language Processing) and machine learning models.
-2. Providing an easy-to-use web interface for users to input news text and receive a classification result in real-time.
-3. Implementing a scalable and efficient solution for deployment in a cloud environment.
+### Technical Stack
+| Component          | Technology |
+|--------------------|------------|
+| Language           | Python 3.9 |
+| ML Framework       | TensorFlow 2.8 |
+| Data Processing    | Pandas, NLTK, etc |
+| Visualization      | Matplotlib, Seaborn |
+| Container          | Docker |
+| Container          | Docker |
+| Github Action      | CI-CD |
+| UI                 | HTML, CSS |
 
 ---
 
-## **3. Technologies Used**
-| **Category**            | **Technology**                  | **Purpose**                          |
-|--------------------------|----------------------------------|---------------------------------------|
-| **Programming Language** | Python                          | Core implementation                  |
-| **Web Framework**        | Flask                           | Backend and API                      |
-| **Machine Learning**     | TensorFlow/Keras                | Model development and training       |
-| **Data Processing**      | Pandas, NumPy                   | Dataset manipulation and preprocessing|
-| **Deployment**           | Render                          | Cloud hosting                        |
-| **Frontend**             | HTML, CSS, Bootstrap            | User interface design                |
+## Project Structure
 
----
-
-## **4. System Architecture**
-The architecture of the Fake News Detection system consists of three main components:
-
-1. **Frontend (User Interface)**:  
-   - Built with **HTML**, **CSS**, and **Bootstrap** to provide a responsive, user-friendly interface.  
-   - Allows users to input news text for classification.
-
-2. **Backend (Flask Application)**:  
-   - Flask is used to serve the model and handle requests.  
-   - Preprocessing of text inputs and inference is done via the Flask API.
-
-3. **Model**:  
-   - An LSTM-based deep learning model trained on text data to classify news articles as fake or real.  
-   - The model and tokenizer are stored as `model.h5` and `tokenizer.pkl`, respectively.
-
-**Architecture Diagram**:  
 ```
-[User Input] -> [Frontend (Flask)] -> [Preprocessing] -> [Model Inference] -> [Result Display]
+Factify/
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── config/
+│   └── config.yaml           # Hyperparameters, file paths, etc.
+│
+├── data/
+│   ├── raw/                  # Store original True.csv and Fake.csv files
+│   └── processed/            # Store processed data files
+│
+├── logs/
+│   └── prediction.log        # Log file for model predictions and operations
+│
+├── models/
+│   └── saved_models/         # Directory for saved trained models
+│
+├── notebooks/
+│   └── experiment.ipynb    # For exploratory analysis notebooks
+│
+├── src/
+│   ├── __init__.py           # Make src a Python package
+│   ├── data_loader.py        # Data loading functions
+│   ├── preprocessing.py      # Cleaning & tokenization
+│   ├── eda.py                # EDA and visualization
+│   ├── model.py              # Model building/training
+│   ├── evaluation.py         # Model evaluation
+│   ├── utils.py              # Utility functions
+│   └── logger.py             # Logging config
+|
+├── static/
+│   └── style.css   
+│
+├── templats/
+│   └── index.html
+|
+├── test/
+│   └── test_app.py
+│
+├── img/                      # Store image files for visualization
+├── setup.py 
+├── render.yaml 
+├── app.png
+├── .gitignore                     
+├── Dockerfile
+├── requirements.txt
+├── LICENSE
+├── app.py                    # Flask API
+├── main.py                   # Main script to run the pipeline
+├── README.md                 # Project documentation
+└── requirements.txt          # Required Python packages
 ```
 
 ---
 
-## **5. Dataset Description**
-The dataset used for training the model contains labeled news articles, each classified as either **fake** (0) or **real** (1). The dataset consists of the following key columns:
-- **text**: The content of the news article or headline.
-- **label**: A binary label where 0 denotes fake news and 1 denotes real news.
+### **Model Architecture**
+**LSTM-GRU Hybrid (Best Performing Model)**
+```python
+Sequential([
+    Embedding(10000, 100),
+    LSTM(100, return_sequences=True),
+    GRU(100),
+    Dropout(0.2),
+    Dense(1, activation='sigmoid')
+])
+```
+---
 
-**Dataset Statistics**:  
-- Total records: 50,000  
-- Fake news: 25,000  
-- Real news: 25,000
-
-The dataset was sourced from Kaggle (or specify the actual source here).
+## System Architecture <a name="system-architecture"></a>
+```mermaid
+graph TD
+    A[Input Data] --> B[Preprocessing]
+    B --> C[Feature Extraction]
+    C --> D[Model Inference]
+    D --> E[Prediction Output]
+```
 
 ---
 
-## **6. Model Design and Training**
-### **Model Architecture**:
-- **Embedding Layer**: Converts text input into dense vector representations.
-- **LSTM Layer**: Processes sequential data to capture context and relationships within the text.
-- **Dropout Layer**: Prevents overfitting by randomly setting some weights to zero during training.
-- **Dense Layer**: Outputs the classification probability (fake or real).
+### Components
+1. **Data Ingestion Layer**
+   - CSV/JSON file support
+   - Database connectors
 
-### **Training Hyperparameters**:
-| **Hyperparameter** | **Value**       |
-|--------------------|-----------------|
-| Optimizer          | Adam            |
-| Learning Rate      | 0.001           |
-| Epochs             | 5              |
-| Batch Size         | 32              |
+2. **Processing Layer**
+   - Text normalization
+   - Tokenization
+   - Sequence padding
 
-### **Training Data Split**:
-| **Dataset Split** | **Percentage** |
-|-------------------|----------------|
-| Training          | 70%            |
-| Validation        | 15%            |
-| Testing           | 15%            |
-
-The model is trained using **TensorFlow** and **Keras**, leveraging GPU acceleration for faster training.
+3. **Model Layer**
+   - Ensemble of 7 LSTM variants
+   - Model versioning
 
 ---
 
-## **7. Application Workflow**
-1. **User Input**: The user enters a news headline or article into the web form.
-2. **Preprocessing**: The backend processes the input by cleaning, tokenizing, and padding the text.
-3. **Model Prediction**: The processed text is passed to the trained LSTM model to predict whether the news is real or fake.
-4. **Result**: The result is displayed on the web interface, showing whether the news is **real** or **fake**.
+##  Data Pipeline <a name="data-pipeline"></a>
+### Data Sources
+- Kaggle dataset (True/Fake News)
+- 42,000 labeled articles (balanced)
+
+### Preprocessing Steps
+1. **Cleaning**:
+   - URL removal
+   - HTML tag stripping
+   - Special character removal
+
+2. **Normalization**:
+   - Case folding
+   - Stopword removal
+   - Stemming
+
+3. **Feature Engineering**:
+   - Word counts
+   - Sentence counts
+   - Character counts
+
+### Schema
+| Column        | Type    | Description               |
+|--------------|---------|---------------------------|
+| clean_text   | String  | Processed article content |
+| target       | Integer | 0=Fake, 1=Real            |
 
 ---
 
-## **8. Deployment**
-The Fake News Detection system is deployed on **Render**, a cloud hosting platform, which ensures seamless scalability and availability.
-
-### **Deployment Steps**:
-1. **Requirements**: Install all dependencies listed in the `requirements.txt` file:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. **Run Application**: Start the Flask application using **Gunicorn**:
-   ```bash
-   gunicorn app:app
-   ```
-
-3. **Render Hosting**: The web application is hosted on **Render**, allowing users to access the interface globally.
+##  Model Specifications <a name="model-specifications"></a>
+### Model Comparison
+| Model Type               | Accuracy | Precision | Recall |
+|--------------------------|----------|-----------|--------|
+| LSTM with GRU            | 0.99     | 0.99      | 0.99   |
+| Bidirectional LSTM       | 0.99     | 0.99      | 0.99   |
+| CNN-LSTM Hybrid          | 0.99     | 0.99      | 0.99   |
 
 ---
 
-## **9. Performance Metrics**
-The model's performance was evaluated using the following metrics:
+### Hyperparameters
+```yaml
+vocab_size: 10000
+embedding_dim: 100
+max_length: 100
+epochs: 5
+batch_size: 64
+test_size: 0.2
+random_state: 42
 
-| **Metric**   | **Value**  |
-|--------------|------------|
-| Accuracy     | 98.8%      |
-| Precision    | 99%        |
-| Recall       | 99%        |
-| F1-Score     | 99%        |
-
-The confusion matrix was also computed:
-
-|              | Predicted Fake | Predicted Real |
-|--------------|----------------|----------------|
-| **Actual Fake** | 4602           | 46             |
-| **Actual Real** | 60             | 4230           |
+paths:
+  data:
+    true_news: data/raw/True.csv
+    fake_news: data/raw/Fake.csv
+    clean_data: data/processed/clean_data.csv
+  models:
+    model_dir: models/saved_models
+    best_model: models/saved_models/fake_news_detector.h5
+    tokenizer: models/saved_models/tokenizer.pickle
+  img:
+    img_dir: img
+    plots_dir: img/plots
+```
 
 ---
 
-## **10. License**
-This project is licensed under the **MIT License**
+## Performance Metrics <a name="performance-metrics"></a>
+### Evaluation Results
+```python
+              precision    recall  f1-score   support
 
-## **11. Contact Information**
-- **Email:** [iconicemon01@gmail.com](mailto:iconicemon01@gmail.com)
-- **WhatsApp:** [+8801834363533](https://wa.me/8801834363533)
-- **GitHub:** [Md-Emon-Hasan](https://github.com/Md-Emon-Hasan)
-- **LinkedIn:** [Md Emon Hasan](https://www.linkedin.com/in/md-emon-hasan)
-- **Facebook:** [Md Emon Hasan](https://www.facebook.com/mdemon.hasan2001/)
+           0       0.99      0.99      0.99      4689
+           1       0.99      0.99      0.99      4287
+
+    accuracy                           0.99      8976
+   macro avg       0.99      0.99      0.99      8976
+weighted avg       0.99      0.99      0.99      8976
+```
+
+---
+
+## Future Enhancements <a name="future-enhancements"></a>
+### Roadmap
+- Q3 2023: Multilingual support
+- Q4 2023: Explainable AI features
+- Q1 2024: Real-time streaming
+
+### Research Directions
+- Transformer-based architectures
+- Few-shot learning
+- Adversarial robustness
+
+---
+
+📧 [iconicemon01@gmail.com](mailto:iconicemon01@gmail.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/md-emon-hasan-695483237/)
+🔗 [GitHub](https://github.com/Md-Emon-Hasan)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![TensorFlow 2.8](https://img.shields.io/badge/tensorflow-2.8-orange?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ---

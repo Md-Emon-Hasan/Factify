@@ -1,0 +1,20 @@
+vocab_size: 10000
+embedding_dim: 100
+max_length: 100
+epochs: 5
+batch_size: 64
+test_size: 0.2
+random_state: 42
+
+paths:
+  data:
+    true_news: data/raw/True.csv
+    fake_news: data/raw/Fake.csv
+    clean_data: data/processed/clean_data.csv
+  models:
+    model_dir: models/saved_models
+    best_model: models/saved_models/fake_news_detector.h5
+    tokenizer: models/saved_models/tokenizer.pickle
+  img:
+    img_dir: img
+    plots_dir: img/plots

@@ -32,7 +32,7 @@ jobs:
           ${{ runner.os }}-buildx-
 
     - name: Build Docker image
-      run: docker build -t fake-news-predictor .
+      run: docker build -t factify .
 
     - name: Test the application (Run tests inside container)
-      run: docker run --rm fake-news-predictor pytest tests/
+      run: docker run --rm factify pytest tests/

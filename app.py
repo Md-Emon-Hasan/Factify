@@ -31,8 +31,8 @@ nltk.download('stopwords')
 app = Flask(__name__)
 
 # Load model and tokenizer
-model = load_model('./models/CNN_LSTM_Hybrid_model.h5')
-with open('./models/tokenizer.pkl', 'rb') as f:
+model = load_model('C:/Users/emon1/Desktop/Focus/New folder/fake_news_detection/models/saved_models/fake_news_detector.h5')
+with open('C:/Users/emon1/Desktop/Focus/New folder/fake_news_detection/models/saved_models/tokenizer.pickle', 'rb') as f:
     tokenizer = pickle.load(f)
 
 # Preprocessing function
