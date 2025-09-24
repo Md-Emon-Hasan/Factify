@@ -1,22 +1,19 @@
 import os
 import tensorflow as tf
 
-# Set environment variable to disable GPU usage
+# disable GPU usage
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+# TensorFlow logs and warnings
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
-# Suppress TensorFlow logs and warnings
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # Suppress all logs (only errors are shown)
-
-# Optional: Set TensorFlow logger to only show errors
 tf.get_logger().setLevel('ERROR')
 
-# Check if TensorFlow is detecting a GPU (It should not)
+# Check if TensorFlow is detecting a GPU
 if tf.config.list_physical_devices('GPU'):
     print("TensorFlow is using GPU, which is not expected as we disabled it.")
 else:
     print("TensorFlow is using the CPU as expected.")
 
-# Rest of your Flask and model loading code...
 from flask import Flask, request, render_template
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
@@ -33,7 +30,6 @@ app = Flask(__name__)
 # Load model and tokenizer
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Construct the full paths to the model and tokenizer files
 model_path = os.path.join(base_dir, 'models', 'saved_models', 'fake_news_detector.h5')
 tokenizer_path = os.path.join(base_dir, 'models', 'saved_models', 'tokenizer.pickle')
 

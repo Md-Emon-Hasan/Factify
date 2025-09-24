@@ -7,18 +7,9 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from src.logger import logger
 
 class FakeNewsDetector:
-    """
-    Class for fake news detection
-    """
+
     def __init__(self, model_path, tokenizer_path, max_length=100):
-        """
-        Initialize FakeNewsDetector
-        
-        Args:
-            model_path (str): Path to saved model
-            tokenizer_path (str): Path to saved tokenizer
-            max_length (int): Maximum sequence length
-        """
+
         self.model_path = model_path
         self.tokenizer_path = tokenizer_path
         self.max_length = max_length
@@ -30,7 +21,6 @@ class FakeNewsDetector:
         self._load_tokenizer()
         
     def _load_model(self):
-        """Load trained model"""
         try:
             logger.info(f"Loading model from {self.model_path}")
             self.model = load_model(self.model_path)
@@ -40,7 +30,6 @@ class FakeNewsDetector:
             raise
             
     def _load_tokenizer(self):
-        """Load tokenizer"""
         try:
             logger.info(f"Loading tokenizer from {self.tokenizer_path}")
             with open(self.tokenizer_path, 'rb') as handle:
@@ -51,15 +40,7 @@ class FakeNewsDetector:
             raise
             
     def preprocess_text(self, text):
-        """
-        Preprocess text for prediction
-        
-        Args:
-            text (str): Input text
-            
-        Returns:
-            np.array: Padded sequence
-        """
+
         try:
             # Convert text to sequence
             sequence = self.tokenizer.texts_to_sequences([text])
@@ -73,15 +54,7 @@ class FakeNewsDetector:
             raise
             
     def predict(self, text):
-        """
-        Predict whether news is fake or real
-        
-        Args:
-            text (str): News text
-            
-        Returns:
-            tuple: (prediction_label, probability)
-        """
+
         try:
             logger.info("Making prediction...")
             
@@ -103,16 +76,7 @@ class FakeNewsDetector:
             raise
 
 def predict_batch(detector, texts):
-    """
-    Make predictions on a batch of texts
-    
-    Args:
-        detector (FakeNewsDetector): Initialized detector
-        texts (list): List of news texts
-        
-    Returns:
-        list: List of tuples (text, label, probability)
-    """
+
     try:
         logger.info(f"Making batch predictions on {len(texts)} texts...")
         

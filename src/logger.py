@@ -2,13 +2,12 @@ import os
 import logging
 from datetime import datetime
 
-# Create logs directory if it doesn't exist
 logs_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'logs')
 os.makedirs(logs_dir, exist_ok=True)
 
 # Configure logger
 def setup_logger():
-    """Set up and configure the logger for the fake news detection project"""
+   
     logger = logging.getLogger('fake_news_detection')
     logger.setLevel(logging.INFO)
     

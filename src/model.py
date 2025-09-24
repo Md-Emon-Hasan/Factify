@@ -4,23 +4,16 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Embedding, LSTM, GRU, Dropout, Dense
+from tensorflow.keras.layers import Embedding
+from tensorflow.keras.layers import LSTM
+from tensorflow.keras.layers import GRU
+from tensorflow.keras.layers import Dropout
+from tensorflow.keras.layers import Dense
 from sklearn.model_selection import train_test_split
 from src.logger import logger
 
 def tokenize_and_pad(texts, vocab_size=10000, max_length=100, oov_token="<OOV>"):
-    """
-    Tokenize texts and pad sequences
-    
-    Args:
-        texts (list): List of text strings
-        vocab_size (int): Maximum number of words in vocabulary
-        max_length (int): Maximum length of sequences
-        oov_token (str): Token for out-of-vocabulary words
-        
-    Returns:
-        tuple: (tokenizer, padded_sequences)
-    """
+
     try:
         logger.info(f"Tokenizing texts with vocab_size={vocab_size}, max_length={max_length}...")
         
@@ -42,19 +35,7 @@ def tokenize_and_pad(texts, vocab_size=10000, max_length=100, oov_token="<OOV>")
         raise
 
 def prepare_data(df, test_size=0.2, random_state=42, vocab_size=10000, max_length=100):
-    """
-    Prepare data for model training
-    
-    Args:
-        df (pd.DataFrame): DataFrame with 'clean_text' and 'target' columns
-        test_size (float): Proportion of data to use for testing
-        random_state (int): Random seed for reproducibility
-        vocab_size (int): Maximum number of words in vocabulary
-        max_length (int): Maximum length of sequences
-        
-    Returns:
-        tuple: (X_train, X_test, y_train, y_test, tokenizer)
-    """
+
     try:
         logger.info("Preparing data for model training...")
         
@@ -78,27 +59,17 @@ def prepare_data(df, test_size=0.2, random_state=42, vocab_size=10000, max_lengt
         raise
 
 def build_lstm_gru_model(vocab_size, embedding_dim=100, max_length=100):
-    """
-    Build LSTM with GRU model for text classification
-    
-    Args:
-        vocab_size (int): Size of the vocabulary
-        embedding_dim (int): Dimension of the embedding layer
-        max_length (int): Maximum length of input sequences
-        
-    Returns:
-        Sequential: Compiled Keras sequential model
-    """
+
     try:
         logger.info(f"Building LSTM-GRU model with vocab_size={vocab_size}, embedding_dim={embedding_dim}...")
         
         # Build the model
         model = Sequential([
             Embedding(input_dim=vocab_size, output_dim=embedding_dim, input_length=max_length),
-            LSTM(100, return_sequences=True),  # LSTM layer returning sequences
-            GRU(100),  # GRU layer processing the sequences from LSTM
-            Dropout(0.2),  # Dropout for regularization
-            Dense(1, activation='sigmoid')  # Output layer for binary classification
+            LSTM(100, return_sequences=True),
+            GRU(100),
+            Dropout(0.2),
+            Dense(1, activation='sigmoid')
         ])
         
         # Compile the model
@@ -112,22 +83,7 @@ def build_lstm_gru_model(vocab_size, embedding_dim=100, max_length=100):
         raise
 
 def train_model(model, X_train, y_train, X_test, y_test, epochs=5, batch_size=64):
-    """
-    Train the model
-    
-    Args:
-        model (Sequential): Keras sequential model
-        X_train (np.array): Training features
-        y_train (np.array): Training targets
-        X_test (np.array): Testing features
-        y_test (np.array): Testing targets
-        epochs (int): Number of training epochs
-        batch_size (int): Batch size for training
-        
-    Returns:
-        Sequential: Trained model
-        History: Training history
-    """
+  
     try:
         logger.info(f"Training model for {epochs} epochs with batch_size={batch_size}...")
         
@@ -174,15 +130,7 @@ def train_model(model, X_train, y_train, X_test, y_test, epochs=5, batch_size=64
         raise
 
 def save_model(model, model_path, tokenizer=None, tokenizer_path=None):
-    """
-    Save the trained model and tokenizer
-    
-    Args:
-        model (Sequential): Trained Keras model
-        model_path (str): Path to save the model
-        tokenizer (Tokenizer, optional): Keras tokenizer
-        tokenizer_path (str, optional): Path to save the tokenizer
-    """
+
     try:
         # Ensure directory exists
         os.makedirs(os.path.dirname(model_path), exist_ok=True)

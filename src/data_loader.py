@@ -3,16 +3,6 @@ import os
 from src.logger import logger
 
 def load_data(true_path, fake_path):
-    """
-    Load the true and fake news datasets and return combined dataframe
-    
-    Args:
-        true_path (str): Path to true news dataset
-        fake_path (str): Path to fake news dataset
-        
-    Returns:
-        pd.DataFrame: Combined dataframe with target labels
-    """
     try:
         logger.info("Loading data from files...")
         
@@ -20,7 +10,7 @@ def load_data(true_path, fake_path):
         df_true = pd.read_csv(true_path)
         df_fake = pd.read_csv(fake_path)
         
-        # Add target column (1 for true news, 0 for fake news)
+        # Add target column
         df_true['target'] = 1
         df_fake['target'] = 0
         

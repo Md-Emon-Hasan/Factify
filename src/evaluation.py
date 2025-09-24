@@ -6,17 +6,7 @@ import os
 from src.logger import logger
 
 def evaluate_model(model, X_test, y_test):
-    """
-    Evaluate model performance on test data
-    
-    Args:
-        model: Keras model
-        X_test (np.array): Test features
-        y_test (np.array): Test targets
-        
-    Returns:
-        tuple: (accuracy, predictions, probabilities)
-    """
+
     try:
         logger.info("Evaluating model performance...")
         
@@ -35,14 +25,7 @@ def evaluate_model(model, X_test, y_test):
         raise
 
 def plot_confusion_matrix(y_true, y_pred, save_path=None):
-    """
-    Plot confusion matrix for model evaluation
-    
-    Args:
-        y_true (np.array): True labels
-        y_pred (np.array): Predicted labels
-        save_path (str, optional): Path to save the plot
-    """
+
     try:
         logger.info("Plotting confusion matrix...")
         
@@ -73,13 +56,7 @@ def plot_confusion_matrix(y_true, y_pred, save_path=None):
         plt.close()
 
 def print_classification_report(y_true, y_pred):
-    """
-    Print and log classification report
-    
-    Args:
-        y_true (np.array): True labels
-        y_pred (np.array): Predicted labels
-    """
+
     try:
         logger.info("Generating classification report...")
         
@@ -95,13 +72,7 @@ def print_classification_report(y_true, y_pred):
         raise
 
 def plot_training_history(history, save_path=None):
-    """
-    Plot training history
-    
-    Args:
-        history: Keras training history object
-        save_path (str, optional): Path to save the plot
-    """
+
     try:
         logger.info("Plotting training history...")
         
@@ -143,16 +114,7 @@ def plot_training_history(history, save_path=None):
         plt.close()
 
 def evaluate_and_visualize(model, X_test, y_test, history=None, plots_dir=None):
-    """
-    Evaluate model and visualize results
-    
-    Args:
-        model: Keras model
-        X_test (np.array): Test features
-        y_test (np.array): Test targets
-        history: Keras training history object
-        plots_dir (str, optional): Directory to save plots
-    """
+
     try:
         logger.info("Starting model evaluation and visualization...")
         

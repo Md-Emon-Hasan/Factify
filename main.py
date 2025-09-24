@@ -6,22 +6,20 @@ import numpy as np
 import tensorflow as tf
 from src.logger import logger
 from src.data_loader import load_data
-from src.preprocessing import download_nltk_resources, calculate_text_features, clean_dataframe
+from src.preprocessing import download_nltk_resources
+from src.preprocessing import calculate_text_features
+from src.preprocessing import clean_dataframe
 from src.eda import run_eda
-from src.model import prepare_data, build_lstm_gru_model, train_model, save_model
+from src.model import prepare_data
+from src.model import build_lstm_gru_model
+from src.model import train_model
+from src.model import save_model
 from src.evaluation import evaluate_and_visualize
-from src.utils import FakeNewsDetector, predict_batch
+from src.utils import FakeNewsDetector
+from src.utils import predict_batch
 
 def load_config(config_path):
-    """
-    Load configuration from YAML file
-    
-    Args:
-        config_path (str): Path to config file
-        
-    Returns:
-        dict: Configuration parameters
-    """
+
     try:
         with open(config_path, 'r') as file:
             config = yaml.safe_load(file)
@@ -32,12 +30,7 @@ def load_config(config_path):
         raise
 
 def create_directories(config):
-    """
-    Create necessary directories
-    
-    Args:
-        config (dict): Configuration parameters
-    """
+
     try:
         # Create data directories
         os.makedirs(os.path.dirname(config['paths']['data']['clean_data']), exist_ok=True)
@@ -54,15 +47,7 @@ def create_directories(config):
         raise
 
 def data_preparation_pipeline(config):
-    """
-    Run data preparation pipeline
-    
-    Args:
-        config (dict): Configuration parameters
-        
-    Returns:
-        pd.DataFrame: Clean dataframe
-    """
+
     try:
         logger.info("Starting data preparation pipeline...")
         
@@ -94,16 +79,7 @@ def data_preparation_pipeline(config):
         raise
 
 def model_training_pipeline(config, df=None):
-    """
-    Run model training pipeline
-    
-    Args:
-        config (dict): Configuration parameters
-        df (pd.DataFrame, optional): Clean dataframe. If None, load from file.
-        
-    Returns:
-        tuple: (model, accuracy)
-    """
+
     try:
         logger.info("Starting model training pipeline...")
         
@@ -166,16 +142,7 @@ def model_training_pipeline(config, df=None):
         raise
 
 def prediction_pipeline(config, text):
-    """
-    Run prediction pipeline
-    
-    Args:
-        config (dict): Configuration parameters
-        text (str): Text to predict
-        
-    Returns:
-        tuple: (label, probability)
-    """
+
     try:
         logger.info("Starting prediction pipeline...")
         

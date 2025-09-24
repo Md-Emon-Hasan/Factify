@@ -15,14 +15,6 @@ def create_plots_directory():
     return plots_dir
 
 def plot_class_distribution(df, target_column='target', save_path=None):
-    """
-    Plot the distribution of target classes
-    
-    Args:
-        df (pd.DataFrame): DataFrame containing the target column
-        target_column (str): Name of the target column
-        save_path (str, optional): Path to save the plot
-    """
     try:
         logger.info("Plotting class distribution...")
         
@@ -72,13 +64,6 @@ def plot_class_distribution(df, target_column='target', save_path=None):
         plt.close()
 
 def plot_text_features(df, save_path=None):
-    """
-    Plot the distribution of text features
-    
-    Args:
-        df (pd.DataFrame): DataFrame containing text features
-        save_path (str, optional): Path to save the plot
-    """
     try:
         logger.info("Plotting text features distribution...")
         
@@ -109,16 +94,7 @@ def plot_text_features(df, save_path=None):
         plt.close()
 
 def create_wordcloud(df, target_value, text_column='clean_text', mask_path=None, save_path=None):
-    """
-    Create and display wordcloud for a specific target class
-    
-    Args:
-        df (pd.DataFrame): DataFrame containing the text data
-        target_value (int): Target value (0 for fake, 1 for real)
-        text_column (str): Column containing text data
-        mask_path (str, optional): Path to mask image for wordcloud
-        save_path (str, optional): Path to save the wordcloud
-    """
+
     try:
         logger.info(f"Creating wordcloud for target={target_value}...")
         
@@ -130,7 +106,7 @@ def create_wordcloud(df, target_value, text_column='clean_text', mask_path=None,
             logger.warning(f"No data available for target={target_value}")
             return
         
-        # Load mask if provided
+        # Load mask
         mask = None
         if mask_path and os.path.exists(mask_path):
             mask = np.array(Image.open(mask_path))
@@ -168,16 +144,7 @@ def create_wordcloud(df, target_value, text_column='clean_text', mask_path=None,
         plt.close()
 
 def plot_common_words(df, target_value, text_column='clean_text', n_words=10, save_path=None):
-    """
-    Plot most common words for a specific target class
-    
-    Args:
-        df (pd.DataFrame): DataFrame containing the text data
-        target_value (int): Target value (0 for fake, 1 for real)
-        text_column (str): Column containing text data
-        n_words (int): Number of top words to display
-        save_path (str, optional): Path to save the plot
-    """
+
     try:
         logger.info(f"Plotting {n_words} most common words for target={target_value}...")
         
@@ -222,16 +189,7 @@ def plot_common_words(df, target_value, text_column='clean_text', n_words=10, sa
         plt.close()
 
 def run_eda(df, img_dir):
-    """
-    Run exploratory data analysis on the dataset
-    
-    Args:
-        df (pd.DataFrame): DataFrame to analyze
-        img_dir (str): Directory to save plots
-        
-    Returns:
-        pd.DataFrame: DataFrame with added text features
-    """
+
     try:
         logger.info("Starting exploratory data analysis...")
         
