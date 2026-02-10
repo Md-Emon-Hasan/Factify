@@ -1,8 +1,15 @@
 # Factify: AI News Classifier with Deep Learning
-The proliferation of fake news presents significant challenges to information integrity. This system automatically classifies news articles as "real" or "fake" with 99% accuracy.
+
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![TensorFlow 2.8](https://img.shields.io/badge/tensorflow-2.8-orange?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![React](https://img.shields.io/badge/React-18-blue?logo=react&logoColor=white)](https://reactjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-blue?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+The proliferation of fake news presents significant challenges to information integrity. The core problem of this project is to automatically distinguish between fake and real news articles based solely on their textual content. This system automatically classifies news articles as "real" or "fake" with 99% accuracy.
+
 Modern social media platforms and online news outlets enable the rapid dissemination of information, but they also facilitate the widespread propagation of intentionally false or misleading content—commonly known as fake news. This phenomenon undermines public trust, distorts democratic processes, and can lead to tangible harms such as public health scares or financial market disruptions.
 
-The core problem of this project is to automatically distinguish between fake and real news articles based solely on their textual content.
 
 ![Image](https://github.com/user-attachments/assets/dd36efc1-a097-4d90-a5bf-f0c3896bedfa)
 
@@ -10,82 +17,112 @@ The core problem of this project is to automatically distinguish between fake an
 
 ### Key Features
 - **98.5% Accuracy** with LSTM-GRU architecture
-- **End-to-end CI/CD pipeline** with Docker containers
-- **Web interface** with HTML/CSS frontend
-- **Microservice architecture** for scalability
-- **multiple neural network** architectures
-- **Flask API** for integration
+- **Modern React Frontend** with Glassmorphism UI
+- **End-to-end CI/CD pipeline** with GitHub Actions
+- **Dockerized Deployment** ready for cloud hosting
+- **FastAPI Backend** for high-performance inference
 
 ---
 
 ### Technical Stack
 | Component          | Technology |
 |--------------------|------------|
-| Language           | Python 3.9 |
-| ML Framework       | TensorFlow 2.8 |
-| Data Processing    | Pandas, NLTK, etc |
-| Visualization      | Matplotlib, Seaborn |
-| Container          | Docker |
-| Container          | Docker |
-| Github Action      | CI-CD |
-| UI                 | HTML, CSS |
+| **Backend**        | Python 3.9, FastAPI, Uvicorn |
+| **ML Framework**   | TensorFlow 2.8, Keras |
+| **Data Processing**| Pandas, NLTK, Scikit-learn |
+| **Frontend**       | React (Vite), Tailwind CSS, DaisyUI |
+| **Container**      | Docker |
+| **CI/CD**          | GitHub Actions |
 
 ---
 
 ## Project Structure
 
-```
+```text
 Factify/
-├── .github/
+├── .github/                     # GitHub Actions (CI/CD)
 │   └── workflows/
-│       └── ci.yml
-├── config/
-│   └── config.yaml           # Hyperparameters, file paths, etc.
-│
-├── data/
-│   ├── raw/                  # Store original True.csv and Fake.csv files
-│   └── processed/            # Store processed data files
-│
-├── logs/
-│   └── prediction.log        # Log file for model predictions and operations
-│
-├── models/
-│   └── saved_models/         # Directory for saved trained models
-│
-├── notebooks/
-│   └── experiment.ipynb    # For exploratory analysis notebooks
-│
-├── src/
-│   ├── __init__.py           # Make src a Python package
-│   ├── data_loader.py        # Data loading functions
-│   ├── preprocessing.py      # Cleaning & tokenization
-│   ├── eda.py                # EDA and visualization
-│   ├── model.py              # Model building/training
-│   ├── evaluation.py         # Model evaluation
-│   ├── utils.py              # Utility functions
-│   └── logger.py             # Logging config
-|
-├── static/
-│   └── style.css   
-│
-├── templats/
-│   └── index.html
-|
-├── test/
-│   └── test_app.py
-│
-├── img/                      # Store image files for visualization
-├── setup.py 
-├── render.yaml 
-├── app.png
-├── .gitignore                     
-├── Dockerfile
-├── requirements.txt
-├── LICENSE
-├── app.py                    # Flask API
-├── main.py                   # Main script to run the pipeline
-├── README.md                 # Project documentation
-└── requirements.txt          # Required Python packages
+│       └── ci.yml               # Pipeline: Run Pytest (Backend) & Build (Frontend)
+├── app/                         # FastAPI Backend Core
+│   ├── api/
+│   │   ├── __init__.py
+│   │   └── endpoints.py         # API Router: Handles /predict and /health endpoints
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── config.py            # Configuration: Env variables, App Settings
+│   │   └── logger.py            # Logging: Custom Loguru/logging setup
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── schemas.py           # Pydantic Models: Request/Response Validation
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── data_loader.py       # Data: Logic to load CSVs (Training only)
+│   │   ├── model.py             # Model: Keras LSTM/GRU Architecture Definition
+│   │   ├── prediction.py        # Inference: Singleton Class for Predictions
+│   │   └── preprocessing.py     # NLP: Text Cleaning, Tokenization, Padding
+│   ├── utils/
+│   │   └── __init__.py
+│   ├── __init__.py
+│   └── main.py                  # Entry Point: FastAPI App Initialization & Middleware
+├── data/                        # Datasets (Training)
+│   ├── processed/               # Cleaned Data (if generated)
+│   └── raw/
+│       ├── Fake.csv             # Raw Fake News Dataset
+│       └── True.csv             # Raw Real News Dataset
+├── frontend/                    # React Frontend (Vite)
+│   ├── public/                  # Static Assets
+│   │   └── vite.svg
+│   ├── src/
+│   │   ├── assets/              # Component Assets
+│   │   │   └── react.svg
+│   │   ├── components/          # Reusable Components
+│   │   │   ├── features/
+│   │   │   │   └── PredictionForm.jsx  # Main Form Component (Logic + UI)
+│   │   │   └── layout/
+│   │   │       ├── Footer.jsx          # Application Footer
+│   │   │       └── Header.jsx          # Application Header
+│   │   ├── pages/               # Route Pages
+│   │   │   └── Home.jsx         # Landing Page (Orchestrates Components)
+│   │   ├── services/            # API Layer
+│   │   │   └── api.js           # Axios Setup & API Calls
+│   │   ├── App.css
+│   │   ├── App.jsx              # Main React Component
+│   │   ├── index.css            # Tailwind Imports & Global Styles
+│   │   └── main.jsx             # React DOM Entry
+│   ├── .gitignore
+│   ├── eslint.config.js         # Linter Config
+│   ├── index.html               # Frontend Entry Point
+│   ├── package-lock.json
+│   ├── package.json             # Frontend Dependencies & Scripts
+│   ├── postcss.config.js        # PostCSS Configuration
+│   ├── tailwind.config.js       # Tailwind CSS Configuration
+│   └── vite.config.js           # Vite Builder Configuration
+├── logs/                        # Application Logs
+│   └── app.log                  # Runtime Log File
+├── models/                      # Trained Model Artifacts
+│   ├── saved_models/
+│   │   ├── fake_news_detector.h5  # Trained Keras Model File
+│   │   └── tokenizer.pickle       # Saved Tokenizer Object
+│   └── best_model_checkpoint.h5
+├── notebooks/                   # Experiments
+│   └── experiment.ipynb         # Jupyter Notebook for Model Training/Analysis
+├── tests/                       # Test Suite (Backend)
+│   ├── conftest.py              # Pytest Fixtures
+│   ├── test_api.py              # API Integration Tests
+│   ├── test_app.py              # App Startup/Shutdown Tests
+│   ├── test_logger.py           # Logging Logic Tests
+│   └── test_services.py         # Business Logic/ML Tests
+├── .gitattributes
+├── .gitignore                   # Root Git Ignore
+├── DEPLOYMENT.md                # Deployment Guide (Hugging Face / Vercel)
+├── Dockerfile                   # Docker Configuration for Backend
+├── LICENSE                      # Project License
+├── pyproject.toml               # Python Project Config
+├── pytest.ini                   # Pytest Settings
+├── requirements.txt             # Python Dependencies
+├── run.py                       # Helper Script to Run Backend Locally
+├── setup.py                     # Python Package Setup
+└── README.md                    # Project Documentation
 ```
 
 ---
@@ -151,12 +188,6 @@ graph TD
    - Sentence counts
    - Character counts
 
-### Schema
-| Column        | Type    | Description               |
-|--------------|---------|---------------------------|
-| clean_text   | String  | Processed article content |
-| target       | Integer | 0=Fake, 1=Real            |
-
 ---
 
 ##  Model Specifications <a name="model-specifications"></a>
@@ -166,32 +197,6 @@ graph TD
 | LSTM with GRU            | 0.99     | 0.99      | 0.99   |
 | Bidirectional LSTM       | 0.99     | 0.99      | 0.99   |
 | CNN-LSTM Hybrid          | 0.99     | 0.99      | 0.99   |
-
----
-
-### Hyperparameters
-```yaml
-vocab_size: 10000
-embedding_dim: 100
-max_length: 100
-epochs: 5
-batch_size: 64
-test_size: 0.2
-random_state: 42
-
-paths:
-  data:
-    true_news: data/raw/True.csv
-    fake_news: data/raw/Fake.csv
-    clean_data: data/processed/clean_data.csv
-  models:
-    model_dir: models/saved_models
-    best_model: models/saved_models/fake_news_detector.h5
-    tokenizer: models/saved_models/tokenizer.pickle
-  img:
-    img_dir: img
-    plots_dir: img/plots
-```
 
 ---
 
@@ -210,24 +215,93 @@ weighted avg       0.99      0.99      0.99      8976
 
 ---
 
-## Future Enhancements <a name="future-enhancements"></a>
-### Roadmap
-- Q3 2023: Multilingual support
-- Q4 2023: Explainable AI features
-- Q1 2024: Real-time streaming
+## Installation & Setup
 
-### Research Directions
-- Transformer-based architectures
-- Few-shot learning
-- Adversarial robustness
+### Prerequisites
+- Python 3.9+
+- Node.js 18+
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Md-Emon-Hasan/Factify.git
+cd Factify
+```
+
+### 2. Backend Setup
+```bash
+# Create Virtual Environment
+python -m venv venv
+# Activate (Windows)
+venv\Scripts\activate
+# Activate (Linux/Mac)
+source venv/bin/activate
+
+# Install Dependencies
+pip install -r requirements.txt
+```
+
+### 3. Frontend Setup
+```bash
+cd frontend
+# Install Dependencies
+npm install
+```
 
 ---
 
-📧 [iconicemon01@gmail.com](mailto:iconicemon01@gmail.com)
-🔗 [LinkedIn](https://www.linkedin.com/in/md-emon-hasan-695483237/)
-🔗 [GitHub](https://github.com/Md-Emon-Hasan)
-[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![TensorFlow 2.8](https://img.shields.io/badge/tensorflow-2.8-orange?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+## Usage
+
+### Running Locally
+
+**Terminal 1: Backend**
+```bash
+# From root directory
+python run.py
+# Backend runs at http://localhost:8000
+```
+
+**Terminal 2: Frontend**
+```bash
+# From frontend directory
+cd frontend
+npm run dev
+# Frontend runs at http://localhost:5173
+```
+
+### Running Tests
+**Backend Tests:**
+```bash
+pytest --cov=app tests/
+```
+
+**Frontend Build Check:**
+```bash
+cd frontend
+npm run build
+```
+
+### Docker
+Build and run the backend container:
+```bash
+docker build -t factify .
+docker run -p 7860:7860 factify
+```
+*(Note: Docker is configured for port 7860 to match Hugging Face Spaces default)*
+
+---
+
+## Deployment
+For detailed deployment instructions (Hugging Face Spaces + Vercel), see [DEPLOYMENT.md](DEPLOYMENT.md).
+
+---
+
+## **Developed By**
+
+**Md Emon Hasan**  
+**Email:** emon.mlengineer@gmail.com
+**WhatsApp:** [+8801834363533](https://wa.me/8801834363533)  
+**GitHub:** [Md-Emon-Hasan](https://github.com/Md-Emon-Hasan)  
+**LinkedIn:** [Md Emon Hasan](https://www.linkedin.com/in/md-emon-hasan-695483237/)  
+**Facebook:** [Md Emon Hasan](https://www.facebook.com/mdemon.hasan2001/)
 
 ---
