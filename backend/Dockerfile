@@ -16,7 +16,6 @@ COPY ./models /code/models
 COPY ./logs /code/logs
 COPY ./tests /code/tests
 COPY ./pytest.ini /code/pytest.ini
-COPY ./run.py /code/run.py
 
 # Create a non-root user (good practice and required by some platforms)
 RUN useradd -m -u 1000 user
