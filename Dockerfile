@@ -14,10 +14,17 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 COPY ./app /code/app
 COPY ./models /code/models
 COPY ./logs /code/logs
+COPY ./tests /code/tests
+COPY ./pytest.ini /code/pytest.ini
 COPY ./run.py /code/run.py
 
 # Create a non-root user (good practice and required by some platforms)
 RUN useradd -m -u 1000 user
+
+# Change ownership of the working directory to the non-root user
+RUN chown -R user:user /code
+
+# Switch to the non-root user
 USER user
 ENV HOME=/home/user \
 	PATH=/home/user/.local/bin:$PATH

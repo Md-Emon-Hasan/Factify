@@ -286,12 +286,6 @@ Build and run the backend container:
 docker build -t factify .
 docker run -p 7860:7860 factify
 ```
-*(Note: Docker is configured for port 7860 to match Hugging Face Spaces default)*
-
----
-
-## Deployment
-For detailed deployment instructions (Hugging Face Spaces + Vercel), see [DEPLOYMENT.md](DEPLOYMENT.md).
 
 ---
 

@@ -1698,3 +1698,9 @@
 2026-02-11 01:29:00,937 - Factify - INFO - Loading tokenizer from C:\Users\emon1\Desktop\zzz\Factify\models\saved_models\tokenizer.pickle
 2026-02-11 01:29:01,112 - Factify - INFO - Tokenizer loaded successfully
 2026-02-11 01:29:01,117 - Factify - INFO - Application starting up...
+2026-02-11 03:17:24,533 - Factify - INFO - Application shutting down...
+2026-02-11 03:17:31,621 - Factify - INFO - Loading model from C:\Users\emon1\Desktop\zzz\Factify\models\saved_models\fake_news_detector.h5
+2026-02-11 03:17:31,721 - Factify - INFO - Model loaded successfully
+2026-02-11 03:17:31,721 - Factify - INFO - Loading tokenizer from C:\Users\emon1\Desktop\zzz\Factify\models\saved_models\tokenizer.pickle
+2026-02-11 03:17:31,884 - Factify - INFO - Tokenizer loaded successfully
+2026-02-11 03:17:31,888 - Factify - INFO - Application starting up...
