@@ -10,8 +10,13 @@ The proliferation of fake news presents significant challenges to information in
 
 Modern social media platforms and online news outlets enable the rapid dissemination of information, but they also facilitate the widespread propagation of intentionally false or misleading content—commonly known as fake news. This phenomenon undermines public trust, distorts democratic processes, and can lead to tangible harms such as public health scares or financial market disruptions.
 
+[![BookSage AI](https://github.com/user-attachments/assets/24904cfe-8c32-4a65-aa4d-48bc18e45e5e)](https://github.com/user-attachments/assets/24904cfe-8c32-4a65-aa4d-48bc18e45e5e)
 
-![Image](https://github.com/user-attachments/assets/dd36efc1-a097-4d90-a5bf-f0c3896bedfa)
+![Project Screenshot](https://github.com/user-attachments/assets/d4803f21-6e0f-4d5e-863d-e7fb377fea72)
+
+<!-- ![project-demo-video](https://github.com/user-attachments/assets/24904cfe-8c32-4a65-aa4d-48bc18e45e5e) -->
+
+<!-- ![project-screenshot](<img width="1366" height="613" alt="Image" src="https://github.com/user-attachments/assets/d4803f21-6e0f-4d5e-863d-e7fb377fea72" />) -->
 
 ---
 
@@ -40,89 +45,97 @@ Modern social media platforms and online news outlets enable the rapid dissemina
 
 ```text
 Factify/
-├── .github/                     # GitHub Actions (CI/CD)
+├── .github/                     # GitHub Actions
 │   └── workflows/
-│       └── ci.yml               # Pipeline: Run Pytest (Backend) & Build (Frontend)
-├── app/                         # FastAPI Backend Core
-│   ├── api/
+│       ├── ci-cd.yml            # Docker Build & Test Pipeline
+│       └── ci.yml               # Standard CI Pipeline
+├── backend/                     # Backend Source Code
+│   ├── app/                     # FastAPI Application
+│   │   ├── api/                 # API Endpoints
+│   │   │   ├── __init__.py
+│   │   │   └── endpoints.py     # API Router
+│   │   ├── core/                # Config & Logging
+│   │   │   ├── __init__.py
+│   │   │   ├── config.py        # Settings & Env Vars
+│   │   │   └── logger.py        # Custom Logging
+│   │   ├── models/              # Pydantic Schemas
+│   │   │   ├── __init__.py
+│   │   │   └── schemas.py       # Request/Response Models
+│   │   ├── services/            # Business Logic & ML
+│   │   │   ├── __init__.py
+│   │   │   ├── data_loader.py   # Data Loading Logic
+│   │   │   ├── model.py         # Keras Model Definition
+│   │   │   ├── prediction.py    # Inference Singleton
+│   │   │   └── preprocessing.py # NLP Text Processing
+│   │   ├── utils/
+│   │   │   └── __init__.py
 │   │   ├── __init__.py
-│   │   └── endpoints.py         # API Router: Handles /predict and /health endpoints
-│   ├── core/
-│   │   ├── __init__.py
-│   │   ├── config.py            # Configuration: Env variables, App Settings
-│   │   └── logger.py            # Logging: Custom Loguru/logging setup
-│   ├── models/
-│   │   ├── __init__.py
-│   │   └── schemas.py           # Pydantic Models: Request/Response Validation
-│   ├── services/
-│   │   ├── __init__.py
-│   │   ├── data_loader.py       # Data: Logic to load CSVs (Training only)
-│   │   ├── model.py             # Model: Keras LSTM/GRU Architecture Definition
-│   │   ├── prediction.py        # Inference: Singleton Class for Predictions
-│   │   └── preprocessing.py     # NLP: Text Cleaning, Tokenization, Padding
-│   ├── utils/
-│   │   └── __init__.py
-│   ├── __init__.py
-│   └── main.py                  # Entry Point: FastAPI App Initialization & Middleware
-├── data/                        # Datasets (Training)
-│   ├── processed/               # Cleaned Data (if generated)
-│   └── raw/
-│       ├── Fake.csv             # Raw Fake News Dataset
-│       └── True.csv             # Raw Real News Dataset
-├── frontend/                    # React Frontend (Vite)
+│   │   └── main.py              # Backend Entry Point
+│   ├── data/                    # Datasets
+│   │   ├── processed/           # Cleaned Data
+│   │   └── raw/
+│   │       ├── Fake.csv
+│   │       └── True.csv
+│   ├── logs/                    # Application Logs
+│   │   └── app.log
+│   ├── models/                  # ML Artifacts
+│   │   ├── saved_models/
+│   │   │   ├── fake_news_detector.h5
+│   │   │   └── tokenizer.pickle
+│   │   └── best_model_checkpoint.h5
+│   ├── notebooks/               # Experiments
+│   │   └── experiment.ipynb
+│   ├── tests/                   # Backend Test Suite
+│   │   ├── conftest.py
+│   │   ├── test_api.py
+│   │   ├── test_app.py
+│   │   ├── test_logger.py
+│   │   └── test_services.py
+│   ├── Dockerfile               # Backend Dockerfile
+│   ├── pyproject.toml           # Python Project Config
+│   ├── pytest.ini               # Pytest Config
+│   ├── requirements.txt         # Backend Dependencies
+│   └── setup.py                 # Package Setup
+├── docs/                        # Documentation
+│   └── img/
+├── frontend/                    # Frontend Source Code
 │   ├── public/                  # Static Assets
 │   │   └── vite.svg
-│   ├── src/
-│   │   ├── assets/              # Component Assets
+│   ├── src/                     # React Source
+│   │   ├── assets/
 │   │   │   └── react.svg
-│   │   ├── components/          # Reusable Components
+│   │   ├── components/
 │   │   │   ├── features/
-│   │   │   │   └── PredictionForm.jsx  # Main Form Component (Logic + UI)
+│   │   │   │   └── PredictionForm.jsx
 │   │   │   └── layout/
-│   │   │       ├── Footer.jsx          # Application Footer
-│   │   │       └── Header.jsx          # Application Header
-│   │   ├── pages/               # Route Pages
-│   │   │   └── Home.jsx         # Landing Page (Orchestrates Components)
-│   │   ├── services/            # API Layer
-│   │   │   └── api.js           # Axios Setup & API Calls
+│   │   │       ├── Footer.jsx
+│   │   │       └── Header.jsx
+│   │   ├── pages/
+│   │   │   └── Home.jsx
+│   │   ├── services/
+│   │   │   └── api.js
 │   │   ├── App.css
-│   │   ├── App.jsx              # Main React Component
-│   │   ├── index.css            # Tailwind Imports & Global Styles
-│   │   └── main.jsx             # React DOM Entry
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
 │   ├── .gitignore
+│   ├── Dockerfile               # Frontend Dockerfile
 │   ├── eslint.config.js         # Linter Config
-│   ├── index.html               # Frontend Entry Point
+│   ├── index.html               # Entry HTML
 │   ├── package-lock.json
-│   ├── package.json             # Frontend Dependencies & Scripts
-│   ├── postcss.config.js        # PostCSS Configuration
-│   ├── tailwind.config.js       # Tailwind CSS Configuration
-│   └── vite.config.js           # Vite Builder Configuration
-├── logs/                        # Application Logs
-│   └── app.log                  # Runtime Log File
-├── models/                      # Trained Model Artifacts
-│   ├── saved_models/
-│   │   ├── fake_news_detector.h5  # Trained Keras Model File
-│   │   └── tokenizer.pickle       # Saved Tokenizer Object
-│   └── best_model_checkpoint.h5
-├── notebooks/                   # Experiments
-│   └── experiment.ipynb         # Jupyter Notebook for Model Training/Analysis
-├── tests/                       # Test Suite (Backend)
-│   ├── conftest.py              # Pytest Fixtures
-│   ├── test_api.py              # API Integration Tests
-│   ├── test_app.py              # App Startup/Shutdown Tests
-│   ├── test_logger.py           # Logging Logic Tests
-│   └── test_services.py         # Business Logic/ML Tests
+│   ├── package.json             
+│   ├── postcss.config.js
+│   ├── tailwind.config.js
+│   └── vite.config.js
 ├── .gitattributes
-├── .gitignore                   # Root Git Ignore
-├── DEPLOYMENT.md                # Deployment Guide (Hugging Face / Vercel)
-├── Dockerfile                   # Docker Configuration for Backend
-├── LICENSE                      # Project License
-├── pyproject.toml               # Python Project Config
-├── pytest.ini                   # Pytest Settings
-├── requirements.txt             # Python Dependencies
-├── run.py                       # Helper Script to Run Backend Locally
-├── setup.py                     # Python Package Setup
-└── README.md                    # Project Documentation
+├── .gitignore
+├── demo.png                     # App Screenshot
+├── demo.mp4                     # App Video
+├── docker-compose.yml           # Docker Orchestration
+├── LICENSE
+├── README.md
+├── render.yml                
+└── run.py                       # Application Start Script
 ```
 
 ---
@@ -220,6 +233,7 @@ weighted avg       0.99      0.99      0.99      8976
 ### Prerequisites
 - Python 3.9+
 - Node.js 18+
+- Docker (Optional)
 
 ### 1. Clone the Repository
 ```bash
@@ -227,23 +241,19 @@ git clone https://github.com/Md-Emon-Hasan/Factify.git
 cd Factify
 ```
 
-### 2. Backend Setup
-```bash
-# Create Virtual Environment
-python -m venv venv
-# Activate (Windows)
-venv\Scripts\activate
-# Activate (Linux/Mac)
-source venv/bin/activate
+### 2. Manual Setup (Without Docker)
 
-# Install Dependencies
+**Backend:**
+```bash
+cd backend
+python -m venv venv
+# Activate: venv\Scripts\activate (Win) or source venv/bin/activate (Linux/Mac)
 pip install -r requirements.txt
 ```
 
-### 3. Frontend Setup
+**Frontend:**
 ```bash
 cd frontend
-# Install Dependencies
 npm install
 ```
 
@@ -251,41 +261,65 @@ npm install
 
 ## Usage
 
-### Running Locally
-
-**Terminal 1: Backend**
+### Option 1: Universal Start Script (Recommended)
+Run the entire project (Frontend + Backend) with a single command from the **root** directory:
 ```bash
-# From root directory
 python run.py
-# Backend runs at http://localhost:8000
+```
+- **Backend**: http://localhost:8000
+- **Frontend**: http://localhost:5173
+- Press `Ctrl+C` to stop both services.
+
+### Option 2: Docker Compose
+Run the full stack in containers:
+```bash
+docker-compose up --build
+```
+- **Backend**: http://localhost:7860
+- **Frontend**: http://localhost:80
+
+### Option 3: Running Services Individually
+
+**Backend Only:**
+```bash
+cd backend
+uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-**Terminal 2: Frontend**
+**Frontend Only:**
 ```bash
-# From frontend directory
 cd frontend
 npm run dev
-# Frontend runs at http://localhost:5173
 ```
 
-### Running Tests
-**Backend Tests:**
+---
+
+## Testing & linting
+
+### Backend
+Run from the `backend/` directory:
 ```bash
-pytest --cov=app tests/
+cd backend
+# Run Tests
+pytest
+# Run Linter
+flake8 .
 ```
 
-**Frontend Build Check:**
+### Frontend
+Run from the `frontend/` directory:
 ```bash
 cd frontend
-npm run build
+# Run Linter
+npm run lint
 ```
 
-### Docker
-Build and run the backend container:
-```bash
-docker build -t factify .
-docker run -p 7860:7860 factify
-```
+---
+
+## CI/CD Pipeline
+The project uses GitHub Actions for automated testing and deployment checks:
+- **CI Pipeline**: Runs on every push/PR to `main`. It installs dependencies, runs `flake8` linting, and executes `pytest` for the backend.
+- **Docker Build**: Verifies that the Docker image builds successfully.
 
 ---
 

@@ -32,7 +32,7 @@ jobs:
           ${{ runner.os }}-buildx-
 
     - name: Build Docker image
-      run: docker build -t factify .
+      run: docker build -t factify backend/
 
     - name: Test the application (Run tests inside container)
       run: docker run --rm factify pytest tests/

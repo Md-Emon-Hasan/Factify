@@ -2,6 +2,7 @@ services:
   - type: web
     name: factify
     env: python
-    buildCommand: ""
-    startCommand: gunicorn app:app -b 0.0.0.0:$PORT
+    root: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port 10000
     plan: free

@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "7860:7860"
+    volumes:
+      # Mount backend directory for easier development/testing if needed
+      # but relies on image properties otherwise.
+      - ./backend:/code
+    environment:
+      - PORT=7860
+    # Command matches Dockerfile but ensures usage of host 0.0.0.0 for container networking
+    command: uvicorn app.main:app --host 0.0.0.0 --port 7860
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
