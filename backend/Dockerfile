@@ -20,8 +20,11 @@ COPY ./pytest.ini /code/pytest.ini
 # Create a non-root user (good practice and required by some platforms)
 RUN useradd -m -u 1000 user
 
+# Create logs directory and ensure it exists
+RUN mkdir -p /code/logs
+
 # Change ownership of the working directory to the non-root user
-RUN chown -R user:user /code
+RUN chown -R user:user /code /home/user
 
 # Switch to the non-root user
 USER user
