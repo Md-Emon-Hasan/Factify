@@ -24,7 +24,7 @@ jobs:
       uses: docker/setup-buildx-action@v2
 
     - name: Build Docker images
-      run: docker-compose build
+      run: docker compose build
 
     - name: Test the application (Run backend tests inside container)
-      run: docker-compose run backend pytest tests/
+      run: docker compose run backend pytest tests/
