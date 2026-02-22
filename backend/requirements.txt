@@ -11,7 +11,7 @@ pillow==10.2.0
 nltk==3.8.1
 gensim==4.3.2
 scikit-learn==1.4.0
-tensorflow-cpu==2.15.0
+tensorflow-cpu>=2.16.1
 pytest==8.0.0
 pytest-cov==4.1.0
 httpx==0.26.0

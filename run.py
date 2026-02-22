@@ -1,60 +1,57 @@
-import subprocess
-import sys
 import os
+import sys
 import time
+import subprocess
+import webbrowser
+
+def setup(root):
+    npm = 'npm.cmd' if os.name == 'nt' else 'npm'
+    
+    try:
+        subprocess.call([npm, '--version'], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    except FileNotFoundError:
+        print("Error: Node.js/NPM is not installed.")
+        sys.exit(1)
+
+    print("Checking backend dependencies...")
+    req_path = os.path.join(root, 'backend', 'requirements.txt')
+    if os.path.exists(req_path):
+        # Remove -q to show progress if it's downloading large files like TensorFlow
+        subprocess.call([sys.executable, '-m', 'pip', 'install', '-r', req_path])
+    
+    print("Checking frontend setup...")
+    fr_dir = os.path.join(root, 'frontend')
+    if not os.path.exists(os.path.join(fr_dir, 'node_modules')):
+        print("Installing frontend dependencies (this may take a few minutes)...")
+        subprocess.call([npm, 'install'], cwd=fr_dir)
 
 def main():
-    root_dir = os.path.abspath(os.path.dirname(__file__))
-    backend_dir = os.path.join(root_dir, 'backend')
-    frontend_dir = os.path.join(root_dir, 'frontend')
+    root = os.path.abspath(os.path.dirname(__file__))
+    setup(root)
 
-    print(f"Root Directory: {root_dir}")
+    npm = 'npm.cmd' if os.name == 'nt' else 'npm'
     
-    # Start Backend
-    print("Starting Backend...")
-    # Run uvicorn directly
-    # Using 'uvicorn' module call
-    # We run it from 'backend' directory so 'app.main' is importable
-    backend_cmd = [sys.executable, '-m', 'uvicorn', 'app.main:app', '--host', '0.0.0.0', '--port', '8000', '--reload']
-    backend_proc = subprocess.Popen(backend_cmd, cwd=backend_dir)
+    # Start processes
+    procs = [
+        subprocess.Popen([sys.executable, '-m', 'uvicorn', 'app.main:app', '--reload'], cwd=os.path.join(root, 'backend')),
+        subprocess.Popen([npm, 'run', 'dev'], cwd=os.path.join(root, 'frontend'))
+    ]
 
-    # Start Frontend
-    print("Starting Frontend...")
-    # 'npm.cmd' for Windows, 'npm' for others
-    npm_exec = 'npm.cmd' if os.name == 'nt' else 'npm'
-    frontend_cmd = [npm_exec, 'run', 'dev']
-    frontend_proc = subprocess.Popen(frontend_cmd, cwd=frontend_dir)
-
-    print("\n---------------------------------------------------")
-    print("Factify is running!")
-    print("Backend: http://localhost:8000 (usually)")
-    print("Frontend: http://localhost:5173 (usually)")
-    print("Press Ctrl+C to stop both services.")
-    print("---------------------------------------------------\n")
+    print("\nFactify is starting...")
+    time.sleep(3) # Give it a moment to start
+    webbrowser.open("http://localhost:5173")
+    print("Running at http://localhost:5173\nPress Ctrl+C to stop.")
 
     try:
-        while True:
-            time.sleep(0.5)
-            # Check if processes have exited
-            if backend_proc.poll() is not None:
-                print(f"Backend process exited with code {backend_proc.returncode}")
-                break
-            if frontend_proc.poll() is not None:
-                print(f"Frontend process exited with code {frontend_proc.returncode}")
-                break
+        while all(p.poll() is None for p in procs):
+            time.sleep(1)
     except KeyboardInterrupt:
-        print("\nStopping services...")
+        pass
     finally:
-        # Terminate processes
-        if backend_proc.poll() is None:
-            backend_proc.terminate()
-        if frontend_proc.poll() is None:
-            frontend_proc.terminate()
-        
-        # Wait for them to actually exit
-        backend_proc.wait()
-        frontend_proc.wait()
-        print("Services stopped.")
+        for p in procs:
+            p.terminate()
+        print("\nStopped.")
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
+

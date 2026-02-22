@@ -1942,3 +1942,15 @@
 2026-02-11 20:21:41,649 - Factify - ERROR - Error saving model: expected str, bytes or os.PathLike object, not NoneType
 2026-02-11 20:21:41,658 - Factify - INFO - Model saved to model.h5
 2026-02-11 20:21:41,659 - Factify - INFO - Tokenizer saved to tok.pickle
+2026-02-22 17:55:41,223 - Factify - INFO - Loading model from C:\Users\codix\OneDrive\Desktop\New folder (2)\Factify\backend\models\saved_models\fake_news_detector.h5
+2026-02-22 17:55:41,331 - Factify - INFO - Model loaded successfully
+2026-02-22 17:55:41,331 - Factify - INFO - Loading tokenizer from C:\Users\codix\OneDrive\Desktop\New folder (2)\Factify\backend\models\saved_models\tokenizer.pickle
+2026-02-22 17:55:41,498 - Factify - INFO - Tokenizer loaded successfully
+2026-02-22 17:55:41,602 - Factify - INFO - Application starting up...
+2026-02-22 18:48:03,018 - Factify - INFO - Received prediction request for text length: 5
+2026-02-22 18:48:03,020 - Factify - INFO - Making prediction for text: hello...
+2026-02-22 18:48:07,056 - Factify - INFO - NLTK resources downloaded successfully
+2026-02-22 18:48:07,083 - Factify - INFO - Text preprocessing and padding successful
+2026-02-22 18:48:07,084 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-02-22 18:48:07,408 - Factify - INFO - Raw prediction result: [[0.10775688]]
+2026-02-22 18:48:07,409 - Factify - INFO - Prediction: FAKE (probability: 0.1078)
