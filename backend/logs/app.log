@@ -1954,3 +1954,14 @@
 2026-02-22 18:48:07,084 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
 2026-02-22 18:48:07,408 - Factify - INFO - Raw prediction result: [[0.10775688]]
 2026-02-22 18:48:07,409 - Factify - INFO - Prediction: FAKE (probability: 0.1078)
+2026-03-02 15:38:00,636 - Factify - INFO - Loading model from C:\Users\codix\OneDrive\Desktop\New folder (2)\Factify\backend\models\saved_models\fake_news_detector.h5
+2026-03-02 15:38:00,849 - Factify - INFO - Model loaded successfully
+2026-03-02 15:38:00,850 - Factify - INFO - Loading tokenizer from C:\Users\codix\OneDrive\Desktop\New folder (2)\Factify\backend\models\saved_models\tokenizer.pickle
+2026-03-02 15:38:01,103 - Factify - INFO - Tokenizer loaded successfully
+2026-03-02 15:38:01,120 - Factify - INFO - Application starting up...
+2026-03-02 15:38:02,170 - Factify - INFO - Received prediction request for text length: 2
+2026-03-02 15:38:02,171 - Factify - INFO - Making prediction for text: ok...
+2026-03-02 15:38:03,734 - Factify - INFO - Text preprocessing and padding successful
+2026-03-02 15:38:03,734 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-03-02 15:38:04,066 - Factify - INFO - Raw prediction result: [[0.11460767]]
+2026-03-02 15:38:04,066 - Factify - INFO - Prediction: FAKE (probability: 0.1146)
