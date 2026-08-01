@@ -10,7 +10,7 @@ The proliferation of fake news presents significant challenges to information in
 
 Modern social media platforms and online news outlets enable the rapid dissemination of information, but they also facilitate the widespread propagation of intentionally false or misleading content—commonly known as fake news. This phenomenon undermines public trust, distorts democratic processes, and can lead to tangible harms such as public health scares or financial market disruptions.
 
-[![BookSage AI](https://github.com/user-attachments/assets/24904cfe-8c32-4a65-aa4d-48bc18e45e5e)](https://github.com/user-attachments/assets/24904cfe-8c32-4a65-aa4d-48bc18e45e5e)
+[![Factify Demo](https://github.com/user-attachments/assets/24904cfe-8c32-4a65-aa4d-48bc18e45e5e)](https://github.com/user-attachments/assets/24904cfe-8c32-4a65-aa4d-48bc18e45e5e)
 
 ![Project Screenshot](https://github.com/user-attachments/assets/d4803f21-6e0f-4d5e-863d-e7fb377fea72)
 
@@ -21,11 +21,15 @@ Modern social media platforms and online news outlets enable the rapid dissemina
 ---
 
 ### Key Features
-- **98.5% Accuracy** with LSTM-GRU architecture
+- **99% Accuracy** with LSTM-GRU architecture
 - **Modern React Frontend** with Glassmorphism UI
 - **End-to-end CI/CD pipeline** with GitHub Actions
 - **Dockerized Deployment** ready for cloud hosting
 - **FastAPI Backend** for high-performance inference
+- **In-Memory Response Caching** (thread-safe TTL cache) so repeat articles skip inference entirely
+- **Rate Limiting** on the prediction endpoint, proxy-aware so each real client gets its own bucket
+- **Model Warm-up on Startup** so the first user never pays TensorFlow's graph-tracing cost
+- **Input Validation** that rejects too-short, oversized, or non-textual submissions with a readable 422
 
 ---
 
@@ -38,6 +42,8 @@ Modern social media platforms and online news outlets enable the rapid dissemina
 | **Frontend**       | React (Vite), Tailwind CSS, DaisyUI |
 | **Container**      | Docker |
 | **CI/CD**          | GitHub Actions |
+| **Caching**        | cachetools TTLCache (thread-safe in-memory) |
+| **Rate Limiting**  | slowapi (proxy-aware keying) |
 
 ---
 
@@ -56,7 +62,9 @@ Factify/
 │   │   │   └── endpoints.py     # API Router
 │   │   ├── core/                # Config & Logging
 │   │   │   ├── __init__.py
+│   │   │   ├── cache.py         # Thread-Safe TTL Cache
 │   │   │   ├── config.py        # Settings & Env Vars
+│   │   │   ├── limiter.py       # Rate Limiter & Client IP
 │   │   │   └── logger.py        # Custom Logging
 │   │   ├── models/              # Pydantic Schemas
 │   │   │   ├── __init__.py
@@ -89,8 +97,12 @@ Factify/
 │   │   ├── conftest.py
 │   │   ├── test_api.py
 │   │   ├── test_app.py
+│   │   ├── test_cache.py
 │   │   ├── test_logger.py
-│   │   └── test_services.py
+│   │   ├── test_rate_limit.py
+│   │   ├── test_services.py
+│   │   ├── test_validation.py
+│   │   └── test_warmup.py
 │   ├── Dockerfile               # Backend Dockerfile
 │   ├── pyproject.toml           # Python Project Config
 │   ├── pytest.ini               # Pytest Config
@@ -156,6 +168,13 @@ Sequential([
 ## System Architecture <a name="system-architecture"></a>
 ```mermaid
 graph TD
+    R[Client Request] --> L[Rate Limit Check]
+    L -->|429 Too Many Requests| X[Rejected]
+    L --> V[Input Validation]
+    V -->|422 Unprocessable Entity| X
+    V --> K[TTL Cache Lookup]
+    K -->|Cache Hit| E
+    K -->|Cache Miss| A
     A[Input Data] --> B[Preprocessing]
     B --> C[Feature Extraction]
     C --> D[Model Inference]
@@ -291,6 +310,19 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 cd frontend
 npm run dev
 ```
+
+---
+
+## API Endpoints
+
+| Method | Path              | Description                                                        | Rate Limit  | Cache TTL |
+|--------|-------------------|--------------------------------------------------------------------|-------------|-----------|
+| GET    | `/`               | Root banner confirming the API is up                                | Unlimited   | None      |
+| GET    | `/health`         | Health check used by Docker/Render probes                           | Unlimited   | None      |
+| POST   | `/predict`        | Classify an article as `REAL` or `FAKE` with a confidence score     | 20/minute   | 3600s     |
+| GET    | `/api/model-info` | Static model metadata (architecture, accuracy, vocab, loaded state) | Unlimited   | None      |
+
+Interactive OpenAPI docs remain available at `/docs`.
 
 ---
 

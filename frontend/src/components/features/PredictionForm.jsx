@@ -1,6 +1,49 @@
 import React, { useState } from 'react';
 import { predictNews } from '../../services/api';
 
+const MIN_INPUT_LENGTH = 50;
+const MIN_WORD_COUNT = 10;
+
+const getInputValidationMessage = (value) => {
+    const trimmed = value.trim();
+
+    if (!trimmed) {
+        return 'Please paste or type some text before analyzing it.';
+    }
+
+    if (trimmed.length < MIN_INPUT_LENGTH) {
+        return `Your text is too short. Please provide at least ${MIN_INPUT_LENGTH} characters so the analysis is meaningful.`;
+    }
+
+    if (trimmed.split(/\s+/).length < MIN_WORD_COUNT) {
+        return `Please provide at least ${MIN_WORD_COUNT} words so the analysis can work properly.`;
+    }
+
+    return null;
+};
+
+const getApiErrorMessage = (err) => {
+    const detail = err?.response?.data?.detail;
+
+    if (typeof detail === 'string' && detail.trim()) {
+        return detail;
+    }
+
+    const errors = err?.response?.data?.errors;
+    if (Array.isArray(errors) && errors.length > 0) {
+        const firstMessage = errors[0]?.msg;
+        if (typeof firstMessage === 'string' && firstMessage.trim()) {
+            return firstMessage;
+        }
+    }
+
+    if (err?.response?.status === 422) {
+        return 'The text does not meet the validation rules. Please use a longer, readable news paragraph.';
+    }
+
+    return 'Analysis failed. Please check the backend connection and try again.';
+};
+
 const PredictionForm = () => {
     const [text, setText] = useState('');
     const [result, setResult] = useState(null);
@@ -14,7 +57,12 @@ const PredictionForm = () => {
     };
 
     const handleVerify = async () => {
-        if (!text.trim()) return;
+        const validationMessage = getInputValidationMessage(text);
+        if (validationMessage) {
+            setResult(null);
+            setError(validationMessage);
+            return;
+        }
 
         setLoading(true);
         setError(null);
@@ -25,7 +73,7 @@ const PredictionForm = () => {
             setResult(data);
         } catch (err) {
             console.error(err);
-            setError("Analysis failed. Please check backend connection.");
+            setError(getApiErrorMessage(err));
         } finally {
             setLoading(false);
         }
@@ -49,6 +97,15 @@ const PredictionForm = () => {
                     spellCheck="false"
                     className="w-full h-[200px] p-4 border-2 border-gray-200 rounded-xl font-inherit text-base bg-gray-50 resize-y transition-all duration-200 focus:outline-none focus:bg-white focus:border-indigo-600 focus:ring-4 focus:ring-indigo-100"
                 ></textarea>
+
+                <div className="mt-3 flex items-center justify-between gap-4 text-sm text-gray-500">
+                    <p>
+                        Paste at least {MIN_INPUT_LENGTH} characters and {MIN_WORD_COUNT} words for a reliable result.
+                    </p>
+                    <p className="whitespace-nowrap">
+                        {text.trim().length} / 5000
+                    </p>
+                </div>
 
                 <div className="flex justify-end gap-4 mt-6">
                     <button

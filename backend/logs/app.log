@@ -1981,3 +1981,1473 @@
 2026-03-02 23:05:10,500 - Factify - INFO - Loading tokenizer from C:\Users\emon1\Desktop\zzz\Factify\backend\models\saved_models\tokenizer.pickle
 2026-03-02 23:05:10,682 - Factify - INFO - Tokenizer loaded successfully
 2026-03-02 23:05:10,693 - Factify - INFO - Application starting up...
+2026-08-01 18:58:48,679 - Factify - INFO - Loading model from C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\fake_news_detector.h5
+2026-08-01 18:58:49,289 - Factify - INFO - Model loaded successfully
+2026-08-01 18:58:49,290 - Factify - INFO - Loading tokenizer from C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\tokenizer.pickle
+2026-08-01 18:58:50,011 - Factify - INFO - Tokenizer loaded successfully
+2026-08-01 18:59:00,919 - Factify - INFO - Received prediction request for text length: 9
+2026-08-01 18:59:00,921 - Factify - INFO - Cache miss for predict:5b5c7c7cf7b339e0f4737360496d5c3e16108e6b832e732a4d13a634475751f8
+2026-08-01 18:59:01,350 - Factify - INFO - Received prediction request for text length: 10
+2026-08-01 18:59:01,351 - Factify - INFO - Cache miss for predict:edcadcc919c38f09aa53fbf2af68ebc4d9adad83ee00ab3da40ed9e762bac1c6
+2026-08-01 18:59:01,352 - Factify - ERROR - Prediction error: Prediction failed
+2026-08-01 18:59:01,366 - Factify - INFO - Application starting up...
+2026-08-01 18:59:01,367 - Factify - INFO - Model warm-up disabled, skipping
+2026-08-01 18:59:01,369 - Factify - INFO - Application shutting down...
+2026-08-01 18:59:01,383 - Factify - INFO - Cache miss for unit:533482076467d952614d83ee8dc409a19e4544fae48262d75e808564ae2d27f7
+2026-08-01 18:59:01,384 - Factify - INFO - Cache hit for unit:533482076467d952614d83ee8dc409a19e4544fae48262d75e808564ae2d27f7
+2026-08-01 18:59:01,390 - Factify - INFO - Cache miss for unit:02d00c996c4858513b09860b1d1cddd58c51e1de22bf83cfb5360e25f22d1010
+2026-08-01 18:59:01,391 - Factify - INFO - Cache hit for unit:02d00c996c4858513b09860b1d1cddd58c51e1de22bf83cfb5360e25f22d1010
+2026-08-01 18:59:01,398 - Factify - INFO - Cache miss for unit:7ec7ae4da1700def51b9c9d1795722a172b946213ca33a0a6bbcee54ede2b68d
+2026-08-01 18:59:01,409 - Factify - INFO - Cache miss for unit:011c92134eec6a30a95f6a2ff61c99fb82d41407b0d2c77c664cd30fc334f2f8
+2026-08-01 18:59:01,421 - Factify - INFO - Cache miss for unit:c34195ab7416c5a58eaf82994fcf7d1ee466e7485ba0a63a445a987adb8a10df
+2026-08-01 18:59:01,528 - Factify - INFO - Cache miss for unit:c34195ab7416c5a58eaf82994fcf7d1ee466e7485ba0a63a445a987adb8a10df
+2026-08-01 18:59:01,534 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 18:59:01,535 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 18:59:01,550 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 18:59:01,553 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 18:59:01,564 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 18:59:01,565 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 18:59:01,579 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 18:59:01,581 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 18:59:01,591 - Factify - INFO - Cache miss for unit:d5112aa7384d59510033811d23e8de5a550e5475689eb9939a391b088c288feb
+2026-08-01 18:59:01,592 - Factify - INFO - Cache hit for unit:d5112aa7384d59510033811d23e8de5a550e5475689eb9939a391b088c288feb
+2026-08-01 18:59:01,599 - Factify - INFO - Cache miss for unit:8fa78498512104950be00153e350f720fc462c6fa44590bcafb8789920d4a2c9
+2026-08-01 18:59:01,600 - Factify - INFO - Cache hit for unit:8fa78498512104950be00153e350f720fc462c6fa44590bcafb8789920d4a2c9
+2026-08-01 18:59:01,741 - Factify - INFO - Received prediction request for text length: 42
+2026-08-01 18:59:01,742 - Factify - INFO - Cache miss for predict:85add2b606fc68fe38815511e5705a26a856e5abe7a2dc33868a5ffa6d8732a7
+2026-08-01 18:59:01,850 - Factify - INFO - Received prediction request for text length: 42
+2026-08-01 18:59:01,851 - Factify - INFO - Cache hit for predict:85add2b606fc68fe38815511e5705a26a856e5abe7a2dc33868a5ffa6d8732a7
+2026-08-01 18:59:01,957 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:01,958 - Factify - INFO - Cache miss for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:02,050 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:02,052 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:02,156 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:02,157 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:02,593 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:02,597 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:02,829 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:02,831 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:02,864 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:02,865 - Factify - INFO - Cache miss for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:02,879 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:02,880 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:02,893 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:02,894 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:02,942 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:02,943 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:02,970 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:02,971 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:02,986 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:02,987 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,010 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,011 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,042 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,043 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,054 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,055 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,080 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,081 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,098 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,099 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,114 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,115 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,151 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,152 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,199 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,200 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,226 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,227 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,239 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,240 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,268 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,269 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,281 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,282 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,303 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,304 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,323 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,324 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,337 - Factify - WARNING - Rate limit exceeded for unknown on /predict
+2026-08-01 18:59:03,353 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,355 - Factify - INFO - Cache miss for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,369 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,370 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,380 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,381 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,410 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,411 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,443 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,444 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,456 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,457 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,476 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,477 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,492 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,493 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,507 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,508 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,519 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,520 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,532 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,533 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,544 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,545 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,557 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,558 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,568 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,569 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,580 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,581 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,592 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,593 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,602 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,603 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,614 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,615 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,624 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,625 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,634 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,635 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:03,646 - Factify - WARNING - Rate limit exceeded for unknown on /predict
+2026-08-01 18:59:03,656 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:03,657 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,222 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,222 - Factify - INFO - Cache miss for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,236 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,236 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,246 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,246 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,256 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,256 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,266 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,267 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,276 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,276 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,286 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,286 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,296 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,296 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,306 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,306 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,316 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,316 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,326 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,326 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,336 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,339 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,350 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,350 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,356 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,361 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,366 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,371 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,376 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,376 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,386 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,391 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,400 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,400 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,411 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,411 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,421 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,421 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,431 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,434 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,441 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,444 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,451 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,454 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,464 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,464 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,474 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 18:59:04,476 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 18:59:04,540 - Factify - INFO - Loading data from files...
+2026-08-01 18:59:04,576 - Factify - INFO - Removing 1 duplicate entries
+2026-08-01 18:59:04,589 - Factify - INFO - Data loaded successfully: 2 rows and 4 columns
+2026-08-01 18:59:04,591 - Factify - INFO - Loading data from files...
+2026-08-01 18:59:04,596 - Factify - ERROR - Error loading data: [Errno 2] No such file or directory: 'non_existent.csv'
+2026-08-01 18:59:10,331 - Factify - INFO - NLTK resources downloaded successfully
+2026-08-01 18:59:10,373 - Factify - INFO - Cleaning text data...
+2026-08-01 18:59:10,379 - Factify - INFO - Text data cleaned successfully
+2026-08-01 18:59:10,385 - Factify - INFO - Cleaning text data...
+2026-08-01 18:59:10,386 - Factify - ERROR - Error cleaning dataframe: 'NoneType' object is not subscriptable
+2026-08-01 18:59:10,424 - Factify - WARNING - Model file not found at path
+2026-08-01 18:59:10,425 - Factify - WARNING - Tokenizer file not found at path
+2026-08-01 18:59:10,430 - Factify - WARNING - Model file not found at bad_path
+2026-08-01 18:59:10,432 - Factify - WARNING - Tokenizer file not found at bad_path
+2026-08-01 18:59:10,435 - Factify - INFO - Making prediction for text: test...
+2026-08-01 18:59:10,436 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 18:59:10,437 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 18:59:10,442 - Factify - ERROR - Model prediction failed: 'NoneType' object has no attribute 'predict'
+2026-08-01 18:59:10,472 - Factify - WARNING - Model file not found at p
+2026-08-01 18:59:10,473 - Factify - WARNING - Tokenizer file not found at t
+2026-08-01 18:59:10,474 - Factify - ERROR - Error preprocessing text for prediction: Tokenizer not loaded
+2026-08-01 18:59:10,489 - Factify - WARNING - Model file not found at C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\fake_news_detector.h5
+2026-08-01 18:59:10,490 - Factify - WARNING - Tokenizer file not found at C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\tokenizer.pickle
+2026-08-01 18:59:10,497 - Factify - WARNING - Model file not found at dummy
+2026-08-01 18:59:10,498 - Factify - WARNING - Tokenizer file not found at dummy
+2026-08-01 18:59:10,504 - Factify - INFO - Making prediction for text: test...
+2026-08-01 18:59:10,505 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 18:59:10,506 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 18:59:10,522 - Factify - INFO - Raw prediction result: [[0.9]]
+2026-08-01 18:59:10,523 - Factify - INFO - Prediction: REAL (probability: 0.9000)
+2026-08-01 18:59:10,533 - Factify - WARNING - Model file not found at p
+2026-08-01 18:59:10,537 - Factify - WARNING - Tokenizer file not found at t
+2026-08-01 18:59:10,550 - Factify - INFO - Tokenizing texts with vocab_size=100, max_length=100...
+2026-08-01 18:59:10,551 - Factify - INFO - Tokenization and padding completed successfully
+2026-08-01 18:59:10,557 - Factify - INFO - Tokenizing texts with vocab_size=10000, max_length=100...
+2026-08-01 18:59:10,558 - Factify - ERROR - Error in tokenization process: 'NoneType' object is not iterable
+2026-08-01 18:59:10,568 - Factify - INFO - Preparing data for model training...
+2026-08-01 18:59:10,569 - Factify - INFO - Tokenizing texts with vocab_size=10000, max_length=100...
+2026-08-01 18:59:10,571 - Factify - INFO - Tokenization and padding completed successfully
+2026-08-01 18:59:10,598 - Factify - INFO - Data prepared: X_train shape=(1, 100), X_test shape=(1, 100)
+2026-08-01 18:59:10,603 - Factify - INFO - Preparing data for model training...
+2026-08-01 18:59:10,604 - Factify - ERROR - Error preparing data: DataFrame must contain 'clean_text' column
+2026-08-01 18:59:10,609 - Factify - INFO - Building LSTM-GRU model with vocab_size=100, embedding_dim=100...
+2026-08-01 18:59:10,661 - Factify - INFO - LSTM-GRU model built successfully
+2026-08-01 18:59:10,672 - Factify - INFO - Building LSTM-GRU model with vocab_size=100, embedding_dim=100...
+2026-08-01 18:59:10,704 - Factify - ERROR - Error building model: Build error
+2026-08-01 18:59:10,717 - Factify - INFO - Training model for 1 epochs with batch_size=64...
+2026-08-01 18:59:10,719 - Factify - INFO - Model training completed successfully
+2026-08-01 18:59:10,726 - Factify - INFO - Training model for 5 epochs with batch_size=64...
+2026-08-01 18:59:10,727 - Factify - ERROR - Error training model: 'NoneType' object has no attribute 'fit'
+2026-08-01 18:59:10,736 - Factify - INFO - Model saved to model_path.h5
+2026-08-01 18:59:10,746 - Factify - ERROR - Error saving model: expected str, bytes or os.PathLike object, not NoneType
+2026-08-01 18:59:10,759 - Factify - INFO - Model saved to model.h5
+2026-08-01 18:59:10,762 - Factify - INFO - Tokenizer saved to tok.pickle
+2026-08-01 18:59:10,836 - Factify - INFO - Validation failed on /predict: Text is too short (10 characters). Please provide at least 50 characters so the analysis is meaningful.
+2026-08-01 18:59:10,851 - Factify - INFO - Validation failed on /predict: Text has too few words (2). Please provide at least 10 words so the analysis is meaningful.
+2026-08-01 18:59:10,868 - Factify - INFO - Validation failed on /predict: Text is too long (24999 characters). Please submit at most 20000 characters.
+2026-08-01 18:59:10,882 - Factify - INFO - Validation failed on /predict: Text cannot be empty or whitespace only.
+2026-08-01 18:59:10,896 - Factify - INFO - Validation failed on /predict: Text must contain readable words, not only digits or punctuation.
+2026-08-01 18:59:10,908 - Factify - INFO - Validation failed on /predict: Field required
+2026-08-01 18:59:10,921 - Factify - INFO - Validation failed on /predict: Text is too short (5 characters). Please provide at least 50 characters so the analysis is meaningful.
+2026-08-01 18:59:10,950 - Factify - INFO - Received prediction request for text length: 120
+2026-08-01 18:59:10,951 - Factify - INFO - Cache miss for predict:db339b7a7d4a648c0d4245578c48a175f9c66861ae69a17f747cde8b2fe5097a
+2026-08-01 18:59:10,952 - Factify - INFO - Making prediction for text: Government officials announced a new economic poli...
+2026-08-01 18:59:10,954 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 18:59:10,955 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 18:59:12,465 - Factify - INFO - Raw prediction result: [[0.05696068]]
+2026-08-01 18:59:12,466 - Factify - INFO - Prediction: FAKE (probability: 0.0570)
+2026-08-01 18:59:16,351 - Factify - INFO - Model warm-up starting...
+2026-08-01 18:59:16,353 - Factify - INFO - Model warm-up completed in 0.00s
+2026-08-01 18:59:16,424 - Factify - INFO - Application starting up...
+2026-08-01 18:59:16,425 - Factify - INFO - Model warm-up starting...
+2026-08-01 18:59:16,426 - Factify - ERROR - Model warm-up failed: boom
+2026-08-01 18:59:16,431 - Factify - INFO - Application shutting down...
+2026-08-01 18:59:16,484 - Factify - INFO - Application starting up...
+2026-08-01 18:59:16,488 - Factify - INFO - Application shutting down...
+2026-08-01 19:55:59,648 - Factify - INFO - Loading model from C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\fake_news_detector.h5
+2026-08-01 19:56:00,254 - Factify - INFO - Model loaded successfully
+2026-08-01 19:56:00,260 - Factify - INFO - Loading tokenizer from C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\tokenizer.pickle
+2026-08-01 19:56:00,891 - Factify - INFO - Tokenizer loaded successfully
+2026-08-01 19:56:03,533 - Factify - INFO - Received prediction request for text length: 9
+2026-08-01 19:56:03,541 - Factify - INFO - Cache miss for predict:5b5c7c7cf7b339e0f4737360496d5c3e16108e6b832e732a4d13a634475751f8
+2026-08-01 19:56:03,569 - Factify - INFO - Received prediction request for text length: 10
+2026-08-01 19:56:03,570 - Factify - INFO - Cache miss for predict:edcadcc919c38f09aa53fbf2af68ebc4d9adad83ee00ab3da40ed9e762bac1c6
+2026-08-01 19:56:03,571 - Factify - ERROR - Prediction error: Prediction failed
+2026-08-01 19:56:03,582 - Factify - INFO - Application starting up...
+2026-08-01 19:56:03,585 - Factify - INFO - Model warm-up disabled, skipping
+2026-08-01 19:56:03,585 - Factify - INFO - Application shutting down...
+2026-08-01 19:56:03,606 - Factify - INFO - Cache miss for unit:533482076467d952614d83ee8dc409a19e4544fae48262d75e808564ae2d27f7
+2026-08-01 19:56:03,610 - Factify - INFO - Cache hit for unit:533482076467d952614d83ee8dc409a19e4544fae48262d75e808564ae2d27f7
+2026-08-01 19:56:03,615 - Factify - INFO - Cache miss for unit:02d00c996c4858513b09860b1d1cddd58c51e1de22bf83cfb5360e25f22d1010
+2026-08-01 19:56:03,625 - Factify - INFO - Cache hit for unit:02d00c996c4858513b09860b1d1cddd58c51e1de22bf83cfb5360e25f22d1010
+2026-08-01 19:56:03,641 - Factify - INFO - Cache miss for unit:7ec7ae4da1700def51b9c9d1795722a172b946213ca33a0a6bbcee54ede2b68d
+2026-08-01 19:56:03,644 - Factify - INFO - Cache miss for unit:011c92134eec6a30a95f6a2ff61c99fb82d41407b0d2c77c664cd30fc334f2f8
+2026-08-01 19:56:03,671 - Factify - INFO - Cache miss for unit:c34195ab7416c5a58eaf82994fcf7d1ee466e7485ba0a63a445a987adb8a10df
+2026-08-01 19:56:03,776 - Factify - INFO - Cache miss for unit:c34195ab7416c5a58eaf82994fcf7d1ee466e7485ba0a63a445a987adb8a10df
+2026-08-01 19:56:03,781 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 19:56:03,784 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 19:56:03,791 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 19:56:03,791 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 19:56:03,796 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 19:56:03,796 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 19:56:03,804 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 19:56:03,806 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 19:56:03,817 - Factify - INFO - Cache miss for unit:d5112aa7384d59510033811d23e8de5a550e5475689eb9939a391b088c288feb
+2026-08-01 19:56:03,817 - Factify - INFO - Cache hit for unit:d5112aa7384d59510033811d23e8de5a550e5475689eb9939a391b088c288feb
+2026-08-01 19:56:03,826 - Factify - INFO - Cache miss for unit:8fa78498512104950be00153e350f720fc462c6fa44590bcafb8789920d4a2c9
+2026-08-01 19:56:03,826 - Factify - INFO - Cache hit for unit:8fa78498512104950be00153e350f720fc462c6fa44590bcafb8789920d4a2c9
+2026-08-01 19:56:03,846 - Factify - INFO - Received prediction request for text length: 42
+2026-08-01 19:56:03,846 - Factify - INFO - Cache miss for predict:85add2b606fc68fe38815511e5705a26a856e5abe7a2dc33868a5ffa6d8732a7
+2026-08-01 19:56:03,857 - Factify - INFO - Received prediction request for text length: 42
+2026-08-01 19:56:03,857 - Factify - INFO - Cache hit for predict:85add2b606fc68fe38815511e5705a26a856e5abe7a2dc33868a5ffa6d8732a7
+2026-08-01 19:56:03,891 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:03,894 - Factify - INFO - Cache miss for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:03,908 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:03,908 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:03,921 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:03,926 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:03,939 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:03,941 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:03,953 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:03,955 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:03,984 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:03,988 - Factify - INFO - Cache miss for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,035 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,036 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,071 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,071 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,091 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,095 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,125 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,125 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,173 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,175 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,196 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,196 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,242 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,242 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,265 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,268 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,326 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,326 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,352 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,352 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,377 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,377 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,397 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,397 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,421 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,425 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,448 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,451 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,466 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,466 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,478 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,478 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,491 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,491 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,508 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,509 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,518 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,521 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,531 - Factify - WARNING - Rate limit exceeded for unknown on /predict
+2026-08-01 19:56:04,546 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,547 - Factify - INFO - Cache miss for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,559 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,559 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,571 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,572 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,581 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,582 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,595 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,595 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,620 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,620 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,630 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,630 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,655 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,655 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,665 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,665 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,672 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,679 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,692 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,692 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,703 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,703 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,713 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,713 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,723 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,723 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,737 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,741 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,748 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,751 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,762 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,764 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,774 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,774 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,786 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,790 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,795 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,800 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:04,813 - Factify - WARNING - Rate limit exceeded for unknown on /predict
+2026-08-01 19:56:04,823 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:04,823 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,480 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,480 - Factify - INFO - Cache miss for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,511 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,511 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,540 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,540 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,568 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,568 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,601 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,601 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,631 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,631 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,684 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,685 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,711 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,712 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,746 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,746 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,764 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,767 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,781 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,782 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,795 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,795 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,813 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,814 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,829 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,830 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,839 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,840 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,851 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,851 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,864 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,866 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,880 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,880 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,893 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,893 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,903 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,903 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,916 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,916 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,926 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,930 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,936 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,936 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,950 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,950 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:05,965 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:56:05,967 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:56:06,027 - Factify - INFO - Loading data from files...
+2026-08-01 19:56:06,081 - Factify - INFO - Removing 1 duplicate entries
+2026-08-01 19:56:06,098 - Factify - INFO - Data loaded successfully: 2 rows and 4 columns
+2026-08-01 19:56:06,100 - Factify - INFO - Loading data from files...
+2026-08-01 19:56:06,109 - Factify - ERROR - Error loading data: [Errno 2] No such file or directory: 'non_existent.csv'
+2026-08-01 19:56:06,201 - Factify - INFO - Cleaning text data...
+2026-08-01 19:56:06,211 - Factify - INFO - Text data cleaned successfully
+2026-08-01 19:56:06,221 - Factify - INFO - Cleaning text data...
+2026-08-01 19:56:06,226 - Factify - ERROR - Error cleaning dataframe: 'NoneType' object is not subscriptable
+2026-08-01 19:56:06,271 - Factify - WARNING - Model file not found at path
+2026-08-01 19:56:06,271 - Factify - WARNING - Tokenizer file not found at path
+2026-08-01 19:56:06,279 - Factify - WARNING - Model file not found at bad_path
+2026-08-01 19:56:06,280 - Factify - WARNING - Tokenizer file not found at bad_path
+2026-08-01 19:56:06,281 - Factify - INFO - Making prediction for text: test...
+2026-08-01 19:56:06,281 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 19:56:06,281 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 19:56:06,281 - Factify - ERROR - Model prediction failed: 'NoneType' object has no attribute 'predict'
+2026-08-01 19:56:06,302 - Factify - WARNING - Model file not found at p
+2026-08-01 19:56:06,310 - Factify - WARNING - Tokenizer file not found at t
+2026-08-01 19:56:06,312 - Factify - ERROR - Error preprocessing text for prediction: Tokenizer not loaded
+2026-08-01 19:56:06,326 - Factify - WARNING - Model file not found at C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\fake_news_detector.h5
+2026-08-01 19:56:06,330 - Factify - WARNING - Tokenizer file not found at C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\tokenizer.pickle
+2026-08-01 19:56:06,336 - Factify - WARNING - Model file not found at dummy
+2026-08-01 19:56:06,336 - Factify - WARNING - Tokenizer file not found at dummy
+2026-08-01 19:56:06,340 - Factify - INFO - Making prediction for text: test...
+2026-08-01 19:56:06,341 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 19:56:06,342 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 19:56:06,344 - Factify - INFO - Raw prediction result: [[0.9]]
+2026-08-01 19:56:06,344 - Factify - INFO - Prediction: REAL (probability: 0.9000)
+2026-08-01 19:56:06,352 - Factify - WARNING - Model file not found at p
+2026-08-01 19:56:06,352 - Factify - WARNING - Tokenizer file not found at t
+2026-08-01 19:56:06,364 - Factify - INFO - Tokenizing texts with vocab_size=100, max_length=100...
+2026-08-01 19:56:06,364 - Factify - INFO - Tokenization and padding completed successfully
+2026-08-01 19:56:06,364 - Factify - INFO - Tokenizing texts with vocab_size=10000, max_length=100...
+2026-08-01 19:56:06,370 - Factify - ERROR - Error in tokenization process: 'NoneType' object is not iterable
+2026-08-01 19:56:06,376 - Factify - INFO - Preparing data for model training...
+2026-08-01 19:56:06,377 - Factify - INFO - Tokenizing texts with vocab_size=10000, max_length=100...
+2026-08-01 19:56:06,377 - Factify - INFO - Tokenization and padding completed successfully
+2026-08-01 19:56:06,382 - Factify - INFO - Data prepared: X_train shape=(1, 100), X_test shape=(1, 100)
+2026-08-01 19:56:06,394 - Factify - INFO - Preparing data for model training...
+2026-08-01 19:56:06,394 - Factify - ERROR - Error preparing data: DataFrame must contain 'clean_text' column
+2026-08-01 19:56:06,398 - Factify - INFO - Building LSTM-GRU model with vocab_size=100, embedding_dim=100...
+2026-08-01 19:56:06,444 - Factify - INFO - LSTM-GRU model built successfully
+2026-08-01 19:56:06,451 - Factify - INFO - Building LSTM-GRU model with vocab_size=100, embedding_dim=100...
+2026-08-01 19:56:06,481 - Factify - ERROR - Error building model: Build error
+2026-08-01 19:56:06,490 - Factify - INFO - Training model for 1 epochs with batch_size=64...
+2026-08-01 19:56:06,491 - Factify - INFO - Model training completed successfully
+2026-08-01 19:56:06,498 - Factify - INFO - Training model for 5 epochs with batch_size=64...
+2026-08-01 19:56:06,501 - Factify - ERROR - Error training model: 'NoneType' object has no attribute 'fit'
+2026-08-01 19:56:06,503 - Factify - INFO - Model saved to model_path.h5
+2026-08-01 19:56:06,514 - Factify - ERROR - Error saving model: expected str, bytes or os.PathLike object, not NoneType
+2026-08-01 19:56:06,533 - Factify - INFO - Model saved to model.h5
+2026-08-01 19:56:06,533 - Factify - INFO - Tokenizer saved to tok.pickle
+2026-08-01 19:56:06,600 - Factify - INFO - Validation failed on /predict: Text is too short (10 characters). Please provide at least 50 characters so the analysis is meaningful.
+2026-08-01 19:56:06,620 - Factify - INFO - Validation failed on /predict: Text has too few words (2). Please provide at least 10 words so the analysis is meaningful.
+2026-08-01 19:56:06,634 - Factify - INFO - Validation failed on /predict: Text is too long (24999 characters). Please submit at most 20000 characters.
+2026-08-01 19:56:06,653 - Factify - INFO - Validation failed on /predict: Text cannot be empty or whitespace only.
+2026-08-01 19:56:06,674 - Factify - INFO - Validation failed on /predict: Text must contain readable words, not only digits or punctuation.
+2026-08-01 19:56:06,696 - Factify - INFO - Validation failed on /predict: Field required
+2026-08-01 19:56:06,715 - Factify - INFO - Validation failed on /predict: Text is too short (5 characters). Please provide at least 50 characters so the analysis is meaningful.
+2026-08-01 19:56:06,731 - Factify - INFO - Received prediction request for text length: 120
+2026-08-01 19:56:06,731 - Factify - INFO - Cache miss for predict:db339b7a7d4a648c0d4245578c48a175f9c66861ae69a17f747cde8b2fe5097a
+2026-08-01 19:56:06,740 - Factify - INFO - Model warm-up starting...
+2026-08-01 19:56:06,745 - Factify - INFO - Model warm-up completed in 0.00s
+2026-08-01 19:56:06,771 - Factify - INFO - Application starting up...
+2026-08-01 19:56:06,771 - Factify - INFO - Model warm-up starting...
+2026-08-01 19:56:06,775 - Factify - ERROR - Model warm-up failed: boom
+2026-08-01 19:56:06,781 - Factify - INFO - Application shutting down...
+2026-08-01 19:56:06,800 - Factify - INFO - Application starting up...
+2026-08-01 19:56:06,806 - Factify - INFO - Application shutting down...
+2026-08-01 19:58:24,482 - Factify - INFO - Loading model from C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\fake_news_detector.h5
+2026-08-01 19:58:24,930 - Factify - INFO - Model loaded successfully
+2026-08-01 19:58:24,930 - Factify - INFO - Loading tokenizer from C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\tokenizer.pickle
+2026-08-01 19:58:25,406 - Factify - INFO - Tokenizer loaded successfully
+2026-08-01 19:58:28,112 - Factify - INFO - Received prediction request for text length: 9
+2026-08-01 19:58:28,115 - Factify - INFO - Cache miss for predict:5b5c7c7cf7b339e0f4737360496d5c3e16108e6b832e732a4d13a634475751f8
+2026-08-01 19:58:28,148 - Factify - INFO - Received prediction request for text length: 10
+2026-08-01 19:58:28,148 - Factify - INFO - Cache miss for predict:edcadcc919c38f09aa53fbf2af68ebc4d9adad83ee00ab3da40ed9e762bac1c6
+2026-08-01 19:58:28,151 - Factify - ERROR - Prediction error: Prediction failed
+2026-08-01 19:58:28,179 - Factify - INFO - Application starting up...
+2026-08-01 19:58:28,181 - Factify - INFO - Model warm-up disabled, skipping
+2026-08-01 19:58:28,187 - Factify - INFO - Application shutting down...
+2026-08-01 19:58:28,248 - Factify - INFO - Cache miss for unit:533482076467d952614d83ee8dc409a19e4544fae48262d75e808564ae2d27f7
+2026-08-01 19:58:28,250 - Factify - INFO - Cache hit for unit:533482076467d952614d83ee8dc409a19e4544fae48262d75e808564ae2d27f7
+2026-08-01 19:58:28,262 - Factify - INFO - Cache miss for unit:02d00c996c4858513b09860b1d1cddd58c51e1de22bf83cfb5360e25f22d1010
+2026-08-01 19:58:28,262 - Factify - INFO - Cache hit for unit:02d00c996c4858513b09860b1d1cddd58c51e1de22bf83cfb5360e25f22d1010
+2026-08-01 19:58:28,288 - Factify - INFO - Cache miss for unit:7ec7ae4da1700def51b9c9d1795722a172b946213ca33a0a6bbcee54ede2b68d
+2026-08-01 19:58:28,291 - Factify - INFO - Cache miss for unit:011c92134eec6a30a95f6a2ff61c99fb82d41407b0d2c77c664cd30fc334f2f8
+2026-08-01 19:58:28,312 - Factify - INFO - Cache miss for unit:c34195ab7416c5a58eaf82994fcf7d1ee466e7485ba0a63a445a987adb8a10df
+2026-08-01 19:58:28,420 - Factify - INFO - Cache miss for unit:c34195ab7416c5a58eaf82994fcf7d1ee466e7485ba0a63a445a987adb8a10df
+2026-08-01 19:58:28,436 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 19:58:28,436 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 19:58:28,454 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 19:58:28,454 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 19:58:28,475 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 19:58:28,475 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 19:58:28,485 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 19:58:28,490 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 19:58:28,504 - Factify - INFO - Cache miss for unit:d5112aa7384d59510033811d23e8de5a550e5475689eb9939a391b088c288feb
+2026-08-01 19:58:28,506 - Factify - INFO - Cache hit for unit:d5112aa7384d59510033811d23e8de5a550e5475689eb9939a391b088c288feb
+2026-08-01 19:58:28,516 - Factify - INFO - Cache miss for unit:8fa78498512104950be00153e350f720fc462c6fa44590bcafb8789920d4a2c9
+2026-08-01 19:58:28,520 - Factify - INFO - Cache hit for unit:8fa78498512104950be00153e350f720fc462c6fa44590bcafb8789920d4a2c9
+2026-08-01 19:58:28,551 - Factify - INFO - Received prediction request for text length: 42
+2026-08-01 19:58:28,551 - Factify - INFO - Cache miss for predict:85add2b606fc68fe38815511e5705a26a856e5abe7a2dc33868a5ffa6d8732a7
+2026-08-01 19:58:28,571 - Factify - INFO - Received prediction request for text length: 42
+2026-08-01 19:58:28,571 - Factify - INFO - Cache hit for predict:85add2b606fc68fe38815511e5705a26a856e5abe7a2dc33868a5ffa6d8732a7
+2026-08-01 19:58:28,616 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:28,616 - Factify - INFO - Cache miss for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:28,631 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:28,636 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:28,671 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:28,671 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:28,696 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:28,699 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:28,731 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:28,731 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:28,776 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:28,777 - Factify - INFO - Cache miss for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:28,818 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:28,820 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:28,855 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:28,861 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:28,894 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:28,898 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:28,937 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:28,938 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:28,955 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:28,957 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:28,977 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:28,977 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,001 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,003 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,053 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,053 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,184 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,184 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,342 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,345 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,418 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,418 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,465 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,466 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,497 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,500 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,527 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,529 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,558 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,558 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,589 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,590 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,609 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,614 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,641 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,642 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,679 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,681 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,702 - Factify - WARNING - Rate limit exceeded for unknown on /predict
+2026-08-01 19:58:29,733 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,734 - Factify - INFO - Cache miss for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,753 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,753 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,774 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,781 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,800 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,800 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,821 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,823 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,843 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,843 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,866 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,867 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,891 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,891 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,916 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,918 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,941 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,941 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:29,967 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:29,969 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:30,006 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:30,007 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:30,026 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:30,029 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:30,073 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:30,073 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:30,093 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:30,095 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:30,115 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:30,119 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:30,141 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:30,141 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:30,161 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:30,166 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:30,186 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:30,186 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:30,212 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:30,215 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:30,235 - Factify - WARNING - Rate limit exceeded for unknown on /predict
+2026-08-01 19:58:30,276 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:30,276 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:31,710 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:31,711 - Factify - INFO - Cache miss for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:31,731 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:31,733 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:31,751 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:31,751 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:31,772 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:31,773 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:31,793 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:31,794 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:31,813 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:31,815 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:31,832 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:31,834 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:31,859 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:31,860 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:31,875 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:31,880 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:31,896 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:31,901 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:31,915 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:31,915 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:31,938 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:31,939 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:31,954 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:31,954 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:31,975 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:31,975 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:31,998 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:31,998 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:32,016 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:32,016 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:32,030 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:32,030 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:32,051 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:32,053 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:32,071 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:32,071 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:32,088 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:32,088 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:32,105 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:32,105 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:32,126 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:32,126 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:32,145 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:32,151 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:32,172 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:32,175 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:32,193 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 19:58:32,193 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 19:58:32,307 - Factify - INFO - Loading data from files...
+2026-08-01 19:58:32,343 - Factify - INFO - Removing 1 duplicate entries
+2026-08-01 19:58:32,357 - Factify - INFO - Data loaded successfully: 2 rows and 4 columns
+2026-08-01 19:58:32,371 - Factify - INFO - Loading data from files...
+2026-08-01 19:58:32,378 - Factify - ERROR - Error loading data: [Errno 2] No such file or directory: 'non_existent.csv'
+2026-08-01 19:58:32,506 - Factify - INFO - Cleaning text data...
+2026-08-01 19:58:32,527 - Factify - INFO - Text data cleaned successfully
+2026-08-01 19:58:32,548 - Factify - INFO - Cleaning text data...
+2026-08-01 19:58:32,550 - Factify - ERROR - Error cleaning dataframe: 'NoneType' object is not subscriptable
+2026-08-01 19:58:32,672 - Factify - WARNING - Model file not found at path
+2026-08-01 19:58:32,674 - Factify - WARNING - Tokenizer file not found at path
+2026-08-01 19:58:32,694 - Factify - WARNING - Model file not found at bad_path
+2026-08-01 19:58:32,694 - Factify - WARNING - Tokenizer file not found at bad_path
+2026-08-01 19:58:32,699 - Factify - INFO - Making prediction for text: test...
+2026-08-01 19:58:32,700 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 19:58:32,702 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 19:58:32,704 - Factify - ERROR - Model prediction failed: 'NoneType' object has no attribute 'predict'
+2026-08-01 19:58:32,781 - Factify - WARNING - Model file not found at p
+2026-08-01 19:58:32,784 - Factify - WARNING - Tokenizer file not found at t
+2026-08-01 19:58:32,785 - Factify - ERROR - Error preprocessing text for prediction: Tokenizer not loaded
+2026-08-01 19:58:32,824 - Factify - WARNING - Model file not found at C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\fake_news_detector.h5
+2026-08-01 19:58:32,824 - Factify - WARNING - Tokenizer file not found at C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\tokenizer.pickle
+2026-08-01 19:58:32,841 - Factify - WARNING - Model file not found at dummy
+2026-08-01 19:58:32,844 - Factify - WARNING - Tokenizer file not found at dummy
+2026-08-01 19:58:32,851 - Factify - INFO - Making prediction for text: test...
+2026-08-01 19:58:32,854 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 19:58:32,857 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 19:58:32,861 - Factify - INFO - Raw prediction result: [[0.9]]
+2026-08-01 19:58:32,863 - Factify - INFO - Prediction: REAL (probability: 0.9000)
+2026-08-01 19:58:32,877 - Factify - WARNING - Model file not found at p
+2026-08-01 19:58:32,879 - Factify - WARNING - Tokenizer file not found at t
+2026-08-01 19:58:32,904 - Factify - INFO - Tokenizing texts with vocab_size=100, max_length=100...
+2026-08-01 19:58:32,907 - Factify - INFO - Tokenization and padding completed successfully
+2026-08-01 19:58:32,915 - Factify - INFO - Tokenizing texts with vocab_size=10000, max_length=100...
+2026-08-01 19:58:32,917 - Factify - ERROR - Error in tokenization process: 'NoneType' object is not iterable
+2026-08-01 19:58:32,930 - Factify - INFO - Preparing data for model training...
+2026-08-01 19:58:32,930 - Factify - INFO - Tokenizing texts with vocab_size=10000, max_length=100...
+2026-08-01 19:58:32,935 - Factify - INFO - Tokenization and padding completed successfully
+2026-08-01 19:58:32,946 - Factify - INFO - Data prepared: X_train shape=(1, 100), X_test shape=(1, 100)
+2026-08-01 19:58:32,958 - Factify - INFO - Preparing data for model training...
+2026-08-01 19:58:32,961 - Factify - ERROR - Error preparing data: DataFrame must contain 'clean_text' column
+2026-08-01 19:58:32,971 - Factify - INFO - Building LSTM-GRU model with vocab_size=100, embedding_dim=100...
+2026-08-01 19:58:33,101 - Factify - INFO - LSTM-GRU model built successfully
+2026-08-01 19:58:33,114 - Factify - INFO - Building LSTM-GRU model with vocab_size=100, embedding_dim=100...
+2026-08-01 19:58:33,192 - Factify - ERROR - Error building model: Build error
+2026-08-01 19:58:33,214 - Factify - INFO - Training model for 1 epochs with batch_size=64...
+2026-08-01 19:58:33,214 - Factify - INFO - Model training completed successfully
+2026-08-01 19:58:33,232 - Factify - INFO - Training model for 5 epochs with batch_size=64...
+2026-08-01 19:58:33,234 - Factify - ERROR - Error training model: 'NoneType' object has no attribute 'fit'
+2026-08-01 19:58:33,253 - Factify - INFO - Model saved to model_path.h5
+2026-08-01 19:58:33,265 - Factify - ERROR - Error saving model: expected str, bytes or os.PathLike object, not NoneType
+2026-08-01 19:58:33,311 - Factify - INFO - Model saved to model.h5
+2026-08-01 19:58:33,316 - Factify - INFO - Tokenizer saved to tok.pickle
+2026-08-01 19:58:33,487 - Factify - INFO - Validation failed on /predict: Text is too short (10 characters). Please provide at least 50 characters so the analysis is meaningful.
+2026-08-01 19:58:33,516 - Factify - INFO - Validation failed on /predict: Text has too few words (2). Please provide at least 10 words so the analysis is meaningful.
+2026-08-01 19:58:33,580 - Factify - INFO - Validation failed on /predict: Text is too long (24999 characters). Please submit at most 20000 characters.
+2026-08-01 19:58:33,711 - Factify - INFO - Validation failed on /predict: Text cannot be empty or whitespace only.
+2026-08-01 19:58:33,816 - Factify - INFO - Validation failed on /predict: Text must contain readable words, not only digits or punctuation.
+2026-08-01 19:58:33,881 - Factify - INFO - Validation failed on /predict: Field required
+2026-08-01 19:58:33,937 - Factify - INFO - Validation failed on /predict: Text is too short (5 characters). Please provide at least 50 characters so the analysis is meaningful.
+2026-08-01 19:58:33,981 - Factify - INFO - Received prediction request for text length: 120
+2026-08-01 19:58:33,981 - Factify - INFO - Cache miss for predict:db339b7a7d4a648c0d4245578c48a175f9c66861ae69a17f747cde8b2fe5097a
+2026-08-01 19:58:34,004 - Factify - INFO - Model warm-up starting...
+2026-08-01 19:58:34,007 - Factify - INFO - Model warm-up completed in 0.00s
+2026-08-01 19:58:34,067 - Factify - INFO - Application starting up...
+2026-08-01 19:58:34,068 - Factify - INFO - Model warm-up starting...
+2026-08-01 19:58:34,069 - Factify - ERROR - Model warm-up failed: boom
+2026-08-01 19:58:34,078 - Factify - INFO - Application shutting down...
+2026-08-01 19:58:34,116 - Factify - INFO - Application starting up...
+2026-08-01 19:58:34,122 - Factify - INFO - Application shutting down...
+2026-08-01 20:00:13,549 - Factify - INFO - Loading model from C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\fake_news_detector.h5
+2026-08-01 20:00:13,911 - Factify - INFO - Model loaded successfully
+2026-08-01 20:00:13,911 - Factify - INFO - Loading tokenizer from C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\tokenizer.pickle
+2026-08-01 20:00:14,631 - Factify - INFO - Tokenizer loaded successfully
+2026-08-01 20:00:14,681 - Factify - INFO - Application starting up...
+2026-08-01 20:00:14,682 - Factify - INFO - Model warm-up starting...
+2026-08-01 20:00:14,682 - Factify - INFO - Making prediction for text: the quick brown fox jumps over the lazy dog...
+2026-08-01 20:00:15,561 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:00:15,562 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:00:17,026 - Factify - INFO - Raw prediction result: [[0.00207656]]
+2026-08-01 20:00:17,027 - Factify - INFO - Prediction: FAKE (probability: 0.0021)
+2026-08-01 20:00:17,028 - Factify - INFO - Model warm-up completed in 2.34s
+2026-08-01 20:00:50,560 - Factify - INFO - Received prediction request for text length: 184
+2026-08-01 20:00:50,560 - Factify - INFO - Cache miss for predict:651afbc799db29612c67925b0f680d476e3df8e8e031368bad82f9f8d8298209
+2026-08-01 20:00:50,560 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:00:50,563 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:00:50,563 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:00:50,775 - Factify - INFO - Raw prediction result: [[0.97733635]]
+2026-08-01 20:00:50,776 - Factify - INFO - Prediction: REAL (probability: 0.9773)
+2026-08-01 20:00:50,934 - Factify - INFO - Validation failed on /predict: JSON decode error
+2026-08-01 20:00:50,990 - Factify - INFO - Validation failed on /predict: Text is too short (10 characters). Please provide at least 50 characters so the analysis is meaningful.
+2026-08-01 20:00:51,042 - Factify - INFO - Validation failed on /predict: Text is too short (10 characters). Please provide at least 50 characters so the analysis is meaningful.
+2026-08-01 20:01:21,382 - Factify - INFO - Received prediction request for text length: 184
+2026-08-01 20:01:21,382 - Factify - INFO - Cache hit for predict:651afbc799db29612c67925b0f680d476e3df8e8e031368bad82f9f8d8298209
+2026-08-01 20:01:21,391 - Factify - INFO - Received prediction request for text length: 187
+2026-08-01 20:01:21,391 - Factify - INFO - Cache hit for predict:651afbc799db29612c67925b0f680d476e3df8e8e031368bad82f9f8d8298209
+2026-08-01 20:01:21,399 - Factify - INFO - Received prediction request for text length: 213
+2026-08-01 20:01:21,399 - Factify - INFO - Cache miss for predict:1379de40731726430ab00eb7f98fcb1243b021010346b8e5722c8430906804de
+2026-08-01 20:01:21,401 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:01:21,401 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:01:21,401 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:01:21,616 - Factify - INFO - Raw prediction result: [[0.99693763]]
+2026-08-01 20:01:21,616 - Factify - INFO - Prediction: REAL (probability: 0.9969)
+2026-08-01 20:01:21,625 - Factify - INFO - Received prediction request for text length: 213
+2026-08-01 20:01:21,627 - Factify - INFO - Cache miss for predict:4afbc561ae3902efa89acde63e547a55a8177f0ad99816e740bb505bfc55feea
+2026-08-01 20:01:21,628 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:01:21,631 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:01:21,632 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:01:21,840 - Factify - INFO - Raw prediction result: [[0.99693763]]
+2026-08-01 20:01:21,840 - Factify - INFO - Prediction: REAL (probability: 0.9969)
+2026-08-01 20:01:21,850 - Factify - INFO - Received prediction request for text length: 213
+2026-08-01 20:01:21,850 - Factify - INFO - Cache miss for predict:dfb8ab8e65ee37c29bfc6c954f2b8e5b3251cb94b7163405355a880354bea74f
+2026-08-01 20:01:21,850 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:01:21,855 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:01:21,855 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:01:22,055 - Factify - INFO - Raw prediction result: [[0.99693763]]
+2026-08-01 20:01:22,055 - Factify - INFO - Prediction: REAL (probability: 0.9969)
+2026-08-01 20:01:22,067 - Factify - INFO - Received prediction request for text length: 213
+2026-08-01 20:01:22,067 - Factify - INFO - Cache miss for predict:7dc4780962dfb7bb3d246d707476eeb977d56d7f2e96b4542bbd732847a60b76
+2026-08-01 20:01:22,067 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:01:22,071 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:01:22,073 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:01:22,276 - Factify - INFO - Raw prediction result: [[0.99693763]]
+2026-08-01 20:01:22,276 - Factify - INFO - Prediction: REAL (probability: 0.9969)
+2026-08-01 20:01:22,285 - Factify - INFO - Received prediction request for text length: 213
+2026-08-01 20:01:22,287 - Factify - INFO - Cache miss for predict:090812c57a0d172fe874d7fc150b0e9a6f2eb7de49fec8fd27d42e3e365c31a7
+2026-08-01 20:01:22,287 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:01:22,289 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:01:22,289 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:01:22,492 - Factify - INFO - Raw prediction result: [[0.99693763]]
+2026-08-01 20:01:22,492 - Factify - INFO - Prediction: REAL (probability: 0.9969)
+2026-08-01 20:01:22,492 - Factify - INFO - Received prediction request for text length: 213
+2026-08-01 20:01:22,501 - Factify - INFO - Cache miss for predict:c8922d710e7ec020edae3ba3d9c82a125d5e949d3f8c5b6b691497ed80c47b73
+2026-08-01 20:01:22,501 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:01:22,504 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:01:22,505 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:01:22,700 - Factify - INFO - Raw prediction result: [[0.99693763]]
+2026-08-01 20:01:22,702 - Factify - INFO - Prediction: REAL (probability: 0.9969)
+2026-08-01 20:01:22,708 - Factify - INFO - Received prediction request for text length: 213
+2026-08-01 20:01:22,708 - Factify - INFO - Cache miss for predict:3d35c2f600f42dac69ae59d98596264efd02e131fa9df3176c9443818229da18
+2026-08-01 20:01:22,710 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:01:22,710 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:01:22,710 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:01:22,903 - Factify - INFO - Raw prediction result: [[0.99693763]]
+2026-08-01 20:01:22,903 - Factify - INFO - Prediction: REAL (probability: 0.9969)
+2026-08-01 20:01:22,911 - Factify - INFO - Received prediction request for text length: 213
+2026-08-01 20:01:22,916 - Factify - INFO - Cache miss for predict:4558a17ffe34e1a92ea8320f2f62100311455713ac807ab614197107ac445e5e
+2026-08-01 20:01:22,916 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:01:22,918 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:01:22,919 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:01:23,106 - Factify - INFO - Raw prediction result: [[0.99693763]]
+2026-08-01 20:01:23,107 - Factify - INFO - Prediction: REAL (probability: 0.9969)
+2026-08-01 20:01:23,112 - Factify - INFO - Received prediction request for text length: 213
+2026-08-01 20:01:23,112 - Factify - INFO - Cache miss for predict:c716d75fbd33ff775d53820b4c37bb2c4cf7d63c09dbdf26805f8473086bfbec
+2026-08-01 20:01:23,112 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:01:23,112 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:01:23,112 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:01:23,333 - Factify - INFO - Raw prediction result: [[0.99693763]]
+2026-08-01 20:01:23,335 - Factify - INFO - Prediction: REAL (probability: 0.9969)
+2026-08-01 20:01:23,341 - Factify - INFO - Received prediction request for text length: 213
+2026-08-01 20:01:23,343 - Factify - INFO - Cache miss for predict:fe9de400365d5c92ac6a8b521b9d2ad19d600dfb19cee571b1c9cc48c5b165fd
+2026-08-01 20:01:23,343 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:01:23,345 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:01:23,347 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:01:23,517 - Factify - INFO - Raw prediction result: [[0.99693763]]
+2026-08-01 20:01:23,517 - Factify - INFO - Prediction: REAL (probability: 0.9969)
+2026-08-01 20:01:23,527 - Factify - INFO - Received prediction request for text length: 214
+2026-08-01 20:01:23,527 - Factify - INFO - Cache miss for predict:0cb91886ccd65b0818b6070924cd302dd0d9455c94bc7c3bbf58e069de202067
+2026-08-01 20:01:23,527 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:01:23,530 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:01:23,531 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:01:23,742 - Factify - INFO - Raw prediction result: [[0.99693763]]
+2026-08-01 20:01:23,743 - Factify - INFO - Prediction: REAL (probability: 0.9969)
+2026-08-01 20:01:23,751 - Factify - INFO - Received prediction request for text length: 214
+2026-08-01 20:01:23,751 - Factify - INFO - Cache miss for predict:6bdc031a0e872a460be82963917d08206467decd4720a3ba7dcf279ad4a2f8a5
+2026-08-01 20:01:23,751 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:01:23,751 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:01:23,751 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:01:24,182 - Factify - INFO - Raw prediction result: [[0.99693763]]
+2026-08-01 20:01:24,183 - Factify - INFO - Prediction: REAL (probability: 0.9969)
+2026-08-01 20:01:24,187 - Factify - INFO - Received prediction request for text length: 214
+2026-08-01 20:01:24,191 - Factify - INFO - Cache miss for predict:5f5e9a1a402a8ba9b25233159111f01dd7e46706dd50458335fed6bbd030849a
+2026-08-01 20:01:24,193 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:01:24,195 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:01:24,196 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:01:24,411 - Factify - INFO - Raw prediction result: [[0.99693763]]
+2026-08-01 20:01:24,412 - Factify - INFO - Prediction: REAL (probability: 0.9969)
+2026-08-01 20:01:24,418 - Factify - INFO - Received prediction request for text length: 214
+2026-08-01 20:01:24,420 - Factify - INFO - Cache miss for predict:50ca5414128877d7909e5ef921b7cedd165efd968a26e3e7b4988de8ff30773a
+2026-08-01 20:01:24,420 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:01:24,420 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:01:24,420 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:01:24,664 - Factify - INFO - Raw prediction result: [[0.99693763]]
+2026-08-01 20:01:24,664 - Factify - INFO - Prediction: REAL (probability: 0.9969)
+2026-08-01 20:01:24,673 - Factify - INFO - Received prediction request for text length: 214
+2026-08-01 20:01:24,674 - Factify - INFO - Cache miss for predict:51f14d5c9e8d378b9bacd888b2736fa4d3c2f5f123729d788e817a53c1ef27a6
+2026-08-01 20:01:24,674 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:01:24,678 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:01:24,678 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:01:24,866 - Factify - INFO - Raw prediction result: [[0.99693763]]
+2026-08-01 20:01:24,866 - Factify - INFO - Prediction: REAL (probability: 0.9969)
+2026-08-01 20:01:24,873 - Factify - INFO - Received prediction request for text length: 214
+2026-08-01 20:01:24,873 - Factify - INFO - Cache miss for predict:053d6f07d27a3209004ab89e1f5211ea41d1bef980b03ba86495e9238d5c76c3
+2026-08-01 20:01:24,873 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:01:24,876 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:01:24,878 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:01:25,062 - Factify - INFO - Raw prediction result: [[0.99693763]]
+2026-08-01 20:01:25,062 - Factify - INFO - Prediction: REAL (probability: 0.9969)
+2026-08-01 20:01:25,076 - Factify - INFO - Received prediction request for text length: 214
+2026-08-01 20:01:25,078 - Factify - INFO - Cache miss for predict:973b8c8200742cb1571acf10d4e18d7b17c18d39978996a8eedc64d210cf7471
+2026-08-01 20:01:25,078 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:01:25,081 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:01:25,082 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:01:25,286 - Factify - INFO - Raw prediction result: [[0.99693763]]
+2026-08-01 20:01:25,287 - Factify - INFO - Prediction: REAL (probability: 0.9969)
+2026-08-01 20:01:25,295 - Factify - INFO - Received prediction request for text length: 214
+2026-08-01 20:01:25,296 - Factify - INFO - Cache miss for predict:53afe2be615eaa5d97811684616df9fe74d9a59d42ccdc5bf132d849197d8d56
+2026-08-01 20:01:25,296 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:01:25,296 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:01:25,296 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:01:25,522 - Factify - INFO - Raw prediction result: [[0.99693763]]
+2026-08-01 20:01:25,522 - Factify - INFO - Prediction: REAL (probability: 0.9969)
+2026-08-01 20:01:25,531 - Factify - INFO - Received prediction request for text length: 214
+2026-08-01 20:01:25,531 - Factify - INFO - Cache miss for predict:65407ce049a428e8f2a83078f86c91f87cb96b6129d72980e14b020076b6d25b
+2026-08-01 20:01:25,531 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:01:25,536 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:01:25,536 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:01:25,723 - Factify - INFO - Raw prediction result: [[0.99693763]]
+2026-08-01 20:01:25,723 - Factify - INFO - Prediction: REAL (probability: 0.9969)
+2026-08-01 20:01:25,731 - Factify - INFO - Received prediction request for text length: 214
+2026-08-01 20:01:25,731 - Factify - INFO - Cache miss for predict:fc1ca94a55e27a78e6d9cf41206cde2b387840ab4bb003ad032e5225a313464d
+2026-08-01 20:01:25,731 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:01:25,734 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:01:25,734 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:01:25,896 - Factify - INFO - Raw prediction result: [[0.99693763]]
+2026-08-01 20:01:25,898 - Factify - INFO - Prediction: REAL (probability: 0.9969)
+2026-08-01 20:01:25,906 - Factify - WARNING - Rate limit exceeded for 203.0.113.55 on /predict
+2026-08-01 20:01:25,911 - Factify - WARNING - Rate limit exceeded for 203.0.113.55 on /predict
+2026-08-01 20:01:25,914 - Factify - WARNING - Rate limit exceeded for 203.0.113.55 on /predict
+2026-08-01 20:01:25,921 - Factify - WARNING - Rate limit exceeded for 203.0.113.55 on /predict
+2026-08-01 20:01:25,923 - Factify - INFO - Received prediction request for text length: 184
+2026-08-01 20:01:25,923 - Factify - INFO - Cache hit for predict:651afbc799db29612c67925b0f680d476e3df8e8e031368bad82f9f8d8298209
+2026-08-01 20:05:15,869 - Factify - INFO - Loading model from C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\fake_news_detector.h5
+2026-08-01 20:05:16,573 - Factify - INFO - Model loaded successfully
+2026-08-01 20:05:16,575 - Factify - INFO - Loading tokenizer from C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\tokenizer.pickle
+2026-08-01 20:05:17,163 - Factify - INFO - Tokenizer loaded successfully
+2026-08-01 20:05:17,197 - Factify - INFO - Application starting up...
+2026-08-01 20:05:17,198 - Factify - INFO - Model warm-up starting...
+2026-08-01 20:05:17,198 - Factify - INFO - Making prediction for text: the quick brown fox jumps over the lazy dog...
+2026-08-01 20:05:18,641 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:05:18,642 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:05:20,166 - Factify - INFO - Raw prediction result: [[0.00207656]]
+2026-08-01 20:05:20,167 - Factify - INFO - Prediction: FAKE (probability: 0.0021)
+2026-08-01 20:05:20,168 - Factify - INFO - Model warm-up completed in 2.97s
+2026-08-01 20:15:07,759 - Factify - INFO - Received prediction request for text length: 184
+2026-08-01 20:15:07,763 - Factify - INFO - Cache miss for predict:651afbc799db29612c67925b0f680d476e3df8e8e031368bad82f9f8d8298209
+2026-08-01 20:15:07,763 - Factify - INFO - Making prediction for text: Government officials announced on Tuesday that the...
+2026-08-01 20:15:07,768 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:15:07,768 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:15:08,215 - Factify - INFO - Raw prediction result: [[0.97733635]]
+2026-08-01 20:15:08,219 - Factify - INFO - Prediction: REAL (probability: 0.9773)
+2026-08-01 20:15:08,235 - Factify - INFO - Validation failed on /predict: Text is too short (10 characters). Please provide at least 50 characters so the analysis is meaningful.
+2026-08-01 20:16:26,262 - Factify - INFO - Loading model from C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\fake_news_detector.h5
+2026-08-01 20:16:27,016 - Factify - INFO - Model loaded successfully
+2026-08-01 20:16:27,016 - Factify - INFO - Loading tokenizer from C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\tokenizer.pickle
+2026-08-01 20:16:27,970 - Factify - INFO - Tokenizer loaded successfully
+2026-08-01 20:16:33,781 - Factify - INFO - Received prediction request for text length: 9
+2026-08-01 20:16:33,783 - Factify - INFO - Cache miss for predict:5b5c7c7cf7b339e0f4737360496d5c3e16108e6b832e732a4d13a634475751f8
+2026-08-01 20:16:34,211 - Factify - INFO - Received prediction request for text length: 10
+2026-08-01 20:16:34,213 - Factify - INFO - Cache miss for predict:edcadcc919c38f09aa53fbf2af68ebc4d9adad83ee00ab3da40ed9e762bac1c6
+2026-08-01 20:16:34,214 - Factify - ERROR - Prediction error: Prediction failed
+2026-08-01 20:16:34,269 - Factify - INFO - Application starting up...
+2026-08-01 20:16:34,271 - Factify - INFO - Model warm-up disabled, skipping
+2026-08-01 20:16:34,276 - Factify - INFO - Application shutting down...
+2026-08-01 20:16:34,305 - Factify - INFO - Cache miss for unit:533482076467d952614d83ee8dc409a19e4544fae48262d75e808564ae2d27f7
+2026-08-01 20:16:34,306 - Factify - INFO - Cache hit for unit:533482076467d952614d83ee8dc409a19e4544fae48262d75e808564ae2d27f7
+2026-08-01 20:16:34,341 - Factify - INFO - Cache miss for unit:02d00c996c4858513b09860b1d1cddd58c51e1de22bf83cfb5360e25f22d1010
+2026-08-01 20:16:34,343 - Factify - INFO - Cache hit for unit:02d00c996c4858513b09860b1d1cddd58c51e1de22bf83cfb5360e25f22d1010
+2026-08-01 20:16:34,362 - Factify - INFO - Cache miss for unit:7ec7ae4da1700def51b9c9d1795722a172b946213ca33a0a6bbcee54ede2b68d
+2026-08-01 20:16:34,375 - Factify - INFO - Cache miss for unit:011c92134eec6a30a95f6a2ff61c99fb82d41407b0d2c77c664cd30fc334f2f8
+2026-08-01 20:16:34,444 - Factify - INFO - Cache miss for unit:c34195ab7416c5a58eaf82994fcf7d1ee466e7485ba0a63a445a987adb8a10df
+2026-08-01 20:16:34,550 - Factify - INFO - Cache miss for unit:c34195ab7416c5a58eaf82994fcf7d1ee466e7485ba0a63a445a987adb8a10df
+2026-08-01 20:16:34,570 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 20:16:34,579 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 20:16:34,601 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 20:16:34,603 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 20:16:34,645 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 20:16:34,646 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 20:16:34,661 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 20:16:34,663 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 20:16:34,708 - Factify - INFO - Cache miss for unit:d5112aa7384d59510033811d23e8de5a550e5475689eb9939a391b088c288feb
+2026-08-01 20:16:34,711 - Factify - INFO - Cache hit for unit:d5112aa7384d59510033811d23e8de5a550e5475689eb9939a391b088c288feb
+2026-08-01 20:16:34,725 - Factify - INFO - Cache miss for unit:8fa78498512104950be00153e350f720fc462c6fa44590bcafb8789920d4a2c9
+2026-08-01 20:16:34,729 - Factify - INFO - Cache hit for unit:8fa78498512104950be00153e350f720fc462c6fa44590bcafb8789920d4a2c9
+2026-08-01 20:16:34,866 - Factify - INFO - Received prediction request for text length: 42
+2026-08-01 20:16:34,868 - Factify - INFO - Cache miss for predict:85add2b606fc68fe38815511e5705a26a856e5abe7a2dc33868a5ffa6d8732a7
+2026-08-01 20:16:34,997 - Factify - INFO - Received prediction request for text length: 42
+2026-08-01 20:16:34,999 - Factify - INFO - Cache hit for predict:85add2b606fc68fe38815511e5705a26a856e5abe7a2dc33868a5ffa6d8732a7
+2026-08-01 20:16:35,104 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:35,106 - Factify - INFO - Cache miss for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:35,245 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:35,247 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:35,360 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:35,361 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:35,553 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:35,555 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:35,686 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:35,688 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:35,790 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:35,793 - Factify - INFO - Cache miss for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:35,858 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:35,860 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:35,999 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:36,001 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:36,099 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:36,100 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:36,245 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:36,246 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:36,459 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:36,464 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:36,674 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:36,677 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:36,869 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:36,870 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:37,073 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:37,075 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:37,168 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:37,170 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:37,304 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:37,305 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:37,596 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:37,597 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:37,873 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:37,873 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:38,105 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:38,106 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:38,389 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:38,389 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:38,672 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:38,675 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:38,994 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:38,997 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:39,261 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:39,262 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:39,417 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:39,419 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:39,955 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:39,959 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:40,182 - Factify - WARNING - Rate limit exceeded for unknown on /predict
+2026-08-01 20:16:40,414 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:40,416 - Factify - INFO - Cache miss for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:40,648 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:40,649 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:40,855 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:40,857 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:41,103 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:41,105 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:41,339 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:41,340 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:41,502 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:41,504 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:41,777 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:41,780 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:42,029 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:42,033 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:42,197 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:42,201 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:42,310 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:42,312 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:42,444 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:42,446 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:42,615 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:42,619 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:42,748 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:42,779 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:42,993 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:42,994 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:43,148 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:43,151 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:43,375 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:43,376 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:43,656 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:43,660 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:43,995 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:43,996 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:44,275 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:44,277 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:44,436 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:44,436 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:44,706 - Factify - WARNING - Rate limit exceeded for unknown on /predict
+2026-08-01 20:16:44,799 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:44,800 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:55,925 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:55,929 - Factify - INFO - Cache miss for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:56,091 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:56,092 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:56,462 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:56,465 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:56,620 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:56,623 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:56,716 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:56,719 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:56,796 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:56,799 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:56,906 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:56,908 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:57,004 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:57,004 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:57,104 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:57,104 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:57,195 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:57,195 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:57,292 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:57,292 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:57,415 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:57,416 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:57,543 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:57,546 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:57,674 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:57,676 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:57,810 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:57,833 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:57,997 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:58,001 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:58,134 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:58,136 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:58,245 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:58,246 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:58,411 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:58,412 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:58,608 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:58,612 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:58,828 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:58,828 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:59,030 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:59,031 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:59,211 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:59,213 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:59,418 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:59,418 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:16:59,773 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 20:16:59,779 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 20:17:00,039 - Factify - INFO - Loading data from files...
+2026-08-01 20:17:00,206 - Factify - INFO - Removing 1 duplicate entries
+2026-08-01 20:17:00,235 - Factify - INFO - Data loaded successfully: 2 rows and 4 columns
+2026-08-01 20:17:00,245 - Factify - INFO - Loading data from files...
+2026-08-01 20:17:00,303 - Factify - ERROR - Error loading data: [Errno 2] No such file or directory: 'non_existent.csv'
+2026-08-01 20:17:00,666 - Factify - INFO - Cleaning text data...
+2026-08-01 20:17:00,692 - Factify - INFO - Text data cleaned successfully
+2026-08-01 20:17:00,807 - Factify - INFO - Cleaning text data...
+2026-08-01 20:17:00,924 - Factify - ERROR - Error cleaning dataframe: 'NoneType' object is not subscriptable
+2026-08-01 20:17:01,292 - Factify - WARNING - Model file not found at path
+2026-08-01 20:17:01,292 - Factify - WARNING - Tokenizer file not found at path
+2026-08-01 20:17:01,314 - Factify - WARNING - Model file not found at bad_path
+2026-08-01 20:17:01,349 - Factify - WARNING - Tokenizer file not found at bad_path
+2026-08-01 20:17:01,391 - Factify - INFO - Making prediction for text: test...
+2026-08-01 20:17:01,392 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:17:01,392 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:17:01,395 - Factify - ERROR - Model prediction failed: 'NoneType' object has no attribute 'predict'
+2026-08-01 20:17:01,656 - Factify - WARNING - Model file not found at p
+2026-08-01 20:17:01,688 - Factify - WARNING - Tokenizer file not found at t
+2026-08-01 20:17:01,689 - Factify - ERROR - Error preprocessing text for prediction: Tokenizer not loaded
+2026-08-01 20:17:01,781 - Factify - WARNING - Model file not found at C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\fake_news_detector.h5
+2026-08-01 20:17:01,794 - Factify - WARNING - Tokenizer file not found at C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\tokenizer.pickle
+2026-08-01 20:17:01,843 - Factify - WARNING - Model file not found at dummy
+2026-08-01 20:17:01,853 - Factify - WARNING - Tokenizer file not found at dummy
+2026-08-01 20:17:01,871 - Factify - INFO - Making prediction for text: test...
+2026-08-01 20:17:01,874 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 20:17:01,874 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 20:17:01,881 - Factify - INFO - Raw prediction result: [[0.9]]
+2026-08-01 20:17:01,882 - Factify - INFO - Prediction: REAL (probability: 0.9000)
+2026-08-01 20:17:01,971 - Factify - WARNING - Model file not found at p
+2026-08-01 20:17:01,987 - Factify - WARNING - Tokenizer file not found at t
+2026-08-01 20:17:02,048 - Factify - INFO - Tokenizing texts with vocab_size=100, max_length=100...
+2026-08-01 20:17:02,052 - Factify - INFO - Tokenization and padding completed successfully
+2026-08-01 20:17:02,072 - Factify - INFO - Tokenizing texts with vocab_size=10000, max_length=100...
+2026-08-01 20:17:02,078 - Factify - ERROR - Error in tokenization process: 'NoneType' object is not iterable
+2026-08-01 20:17:02,153 - Factify - INFO - Preparing data for model training...
+2026-08-01 20:17:02,153 - Factify - INFO - Tokenizing texts with vocab_size=10000, max_length=100...
+2026-08-01 20:17:02,157 - Factify - INFO - Tokenization and padding completed successfully
+2026-08-01 20:17:02,190 - Factify - INFO - Data prepared: X_train shape=(1, 100), X_test shape=(1, 100)
+2026-08-01 20:17:02,241 - Factify - INFO - Preparing data for model training...
+2026-08-01 20:17:02,245 - Factify - ERROR - Error preparing data: DataFrame must contain 'clean_text' column
+2026-08-01 20:17:02,258 - Factify - INFO - Building LSTM-GRU model with vocab_size=100, embedding_dim=100...
+2026-08-01 20:17:02,746 - Factify - INFO - LSTM-GRU model built successfully
+2026-08-01 20:17:02,806 - Factify - INFO - Building LSTM-GRU model with vocab_size=100, embedding_dim=100...
+2026-08-01 20:17:03,185 - Factify - ERROR - Error building model: Build error
+2026-08-01 20:17:03,236 - Factify - INFO - Training model for 1 epochs with batch_size=64...
+2026-08-01 20:17:03,275 - Factify - INFO - Model training completed successfully
+2026-08-01 20:17:03,318 - Factify - INFO - Training model for 5 epochs with batch_size=64...
+2026-08-01 20:17:03,326 - Factify - ERROR - Error training model: 'NoneType' object has no attribute 'fit'
+2026-08-01 20:17:03,441 - Factify - INFO - Model saved to model_path.h5
+2026-08-01 20:17:03,460 - Factify - ERROR - Error saving model: expected str, bytes or os.PathLike object, not NoneType
+2026-08-01 20:17:03,616 - Factify - INFO - Model saved to model.h5
+2026-08-01 20:17:03,626 - Factify - INFO - Tokenizer saved to tok.pickle
+2026-08-01 20:17:04,249 - Factify - INFO - Validation failed on /predict: Text is too short (10 characters). Please provide at least 50 characters so the analysis is meaningful.
+2026-08-01 20:17:04,417 - Factify - INFO - Validation failed on /predict: Text has too few words (2). Please provide at least 10 words so the analysis is meaningful.
+2026-08-01 20:17:04,501 - Factify - INFO - Validation failed on /predict: Text is too long (24999 characters). Please submit at most 20000 characters.
+2026-08-01 20:17:04,591 - Factify - INFO - Validation failed on /predict: Text cannot be empty or whitespace only.
+2026-08-01 20:17:04,729 - Factify - INFO - Validation failed on /predict: Text must contain readable words, not only digits or punctuation.
+2026-08-01 20:17:04,802 - Factify - INFO - Validation failed on /predict: Field required
+2026-08-01 20:17:04,886 - Factify - INFO - Validation failed on /predict: Text is too short (5 characters). Please provide at least 50 characters so the analysis is meaningful.
+2026-08-01 20:17:04,981 - Factify - INFO - Received prediction request for text length: 120
+2026-08-01 20:17:04,981 - Factify - INFO - Cache miss for predict:db339b7a7d4a648c0d4245578c48a175f9c66861ae69a17f747cde8b2fe5097a
+2026-08-01 20:17:05,019 - Factify - INFO - Model warm-up starting...
+2026-08-01 20:17:05,021 - Factify - INFO - Model warm-up completed in 0.00s
+2026-08-01 20:17:05,318 - Factify - INFO - Application starting up...
+2026-08-01 20:17:05,337 - Factify - INFO - Model warm-up starting...
+2026-08-01 20:17:05,342 - Factify - ERROR - Model warm-up failed: boom
+2026-08-01 20:17:05,369 - Factify - INFO - Application shutting down...
+2026-08-01 20:17:05,533 - Factify - INFO - Application starting up...
+2026-08-01 20:17:05,541 - Factify - INFO - Application shutting down...
+2026-08-01 21:06:06,927 - Factify - INFO - Loading model from C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\fake_news_detector.h5
+2026-08-01 21:06:07,515 - Factify - INFO - Model loaded successfully
+2026-08-01 21:06:07,516 - Factify - INFO - Loading tokenizer from C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\tokenizer.pickle
+2026-08-01 21:06:08,002 - Factify - INFO - Tokenizer loaded successfully
+2026-08-01 21:06:11,569 - Factify - INFO - Received prediction request for text length: 9
+2026-08-01 21:06:11,570 - Factify - INFO - Cache miss for predict:5b5c7c7cf7b339e0f4737360496d5c3e16108e6b832e732a4d13a634475751f8
+2026-08-01 21:06:11,613 - Factify - INFO - Received prediction request for text length: 10
+2026-08-01 21:06:11,614 - Factify - INFO - Cache miss for predict:edcadcc919c38f09aa53fbf2af68ebc4d9adad83ee00ab3da40ed9e762bac1c6
+2026-08-01 21:06:11,615 - Factify - ERROR - Prediction error: Prediction failed
+2026-08-01 21:06:11,646 - Factify - INFO - Application starting up...
+2026-08-01 21:06:11,647 - Factify - INFO - Model warm-up disabled, skipping
+2026-08-01 21:06:11,650 - Factify - INFO - Application shutting down...
+2026-08-01 21:06:11,673 - Factify - INFO - Cache miss for unit:533482076467d952614d83ee8dc409a19e4544fae48262d75e808564ae2d27f7
+2026-08-01 21:06:11,675 - Factify - INFO - Cache hit for unit:533482076467d952614d83ee8dc409a19e4544fae48262d75e808564ae2d27f7
+2026-08-01 21:06:11,685 - Factify - INFO - Cache miss for unit:02d00c996c4858513b09860b1d1cddd58c51e1de22bf83cfb5360e25f22d1010
+2026-08-01 21:06:11,686 - Factify - INFO - Cache hit for unit:02d00c996c4858513b09860b1d1cddd58c51e1de22bf83cfb5360e25f22d1010
+2026-08-01 21:06:11,696 - Factify - INFO - Cache miss for unit:7ec7ae4da1700def51b9c9d1795722a172b946213ca33a0a6bbcee54ede2b68d
+2026-08-01 21:06:11,698 - Factify - INFO - Cache miss for unit:011c92134eec6a30a95f6a2ff61c99fb82d41407b0d2c77c664cd30fc334f2f8
+2026-08-01 21:06:11,721 - Factify - INFO - Cache miss for unit:c34195ab7416c5a58eaf82994fcf7d1ee466e7485ba0a63a445a987adb8a10df
+2026-08-01 21:06:11,823 - Factify - INFO - Cache miss for unit:c34195ab7416c5a58eaf82994fcf7d1ee466e7485ba0a63a445a987adb8a10df
+2026-08-01 21:06:11,833 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 21:06:11,834 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 21:06:11,845 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 21:06:11,846 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 21:06:11,852 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 21:06:11,853 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 21:06:11,865 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 21:06:11,866 - Factify - INFO - Cache miss for unit:047ab2abdeddf6b4969fd760eb4066162c77b0af242263d06f3982b44e8094db
+2026-08-01 21:06:11,884 - Factify - INFO - Cache miss for unit:d5112aa7384d59510033811d23e8de5a550e5475689eb9939a391b088c288feb
+2026-08-01 21:06:11,886 - Factify - INFO - Cache hit for unit:d5112aa7384d59510033811d23e8de5a550e5475689eb9939a391b088c288feb
+2026-08-01 21:06:11,895 - Factify - INFO - Cache miss for unit:8fa78498512104950be00153e350f720fc462c6fa44590bcafb8789920d4a2c9
+2026-08-01 21:06:11,896 - Factify - INFO - Cache hit for unit:8fa78498512104950be00153e350f720fc462c6fa44590bcafb8789920d4a2c9
+2026-08-01 21:06:11,918 - Factify - INFO - Received prediction request for text length: 42
+2026-08-01 21:06:11,918 - Factify - INFO - Cache miss for predict:85add2b606fc68fe38815511e5705a26a856e5abe7a2dc33868a5ffa6d8732a7
+2026-08-01 21:06:11,938 - Factify - INFO - Received prediction request for text length: 42
+2026-08-01 21:06:11,939 - Factify - INFO - Cache hit for predict:85add2b606fc68fe38815511e5705a26a856e5abe7a2dc33868a5ffa6d8732a7
+2026-08-01 21:06:11,979 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:11,981 - Factify - INFO - Cache miss for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,003 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,005 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,021 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,022 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,035 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,036 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,050 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,051 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,073 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,074 - Factify - INFO - Cache miss for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,093 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,096 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,115 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,116 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,133 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,135 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,150 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,151 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,169 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,170 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,187 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,188 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,200 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,201 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,219 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,220 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,233 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,234 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,249 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,250 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,264 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,265 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,278 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,279 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,300 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,301 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,314 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,315 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,330 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,331 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,349 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,350 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,364 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,365 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,379 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,380 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,393 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,395 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,408 - Factify - WARNING - Rate limit exceeded for unknown on /predict
+2026-08-01 21:06:12,428 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,430 - Factify - INFO - Cache miss for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,440 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,441 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,453 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,455 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,469 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,470 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,482 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,483 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,495 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,495 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,509 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,510 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,524 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,525 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,536 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,537 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,553 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,555 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,566 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,566 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,578 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,579 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,590 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,591 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,604 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,605 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,617 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,618 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,632 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,633 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,643 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,645 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,660 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,662 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,692 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,693 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,714 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,715 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:12,727 - Factify - WARNING - Rate limit exceeded for unknown on /predict
+2026-08-01 21:06:12,738 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:12,739 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,510 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,511 - Factify - INFO - Cache miss for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,525 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,526 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,536 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,537 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,548 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,550 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,560 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,560 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,571 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,572 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,586 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,587 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,600 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,601 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,613 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,615 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,625 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,626 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,639 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,640 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,652 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,652 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,663 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,663 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,677 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,678 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,689 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,690 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,701 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,701 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,713 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,713 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,725 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,726 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,737 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,738 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,752 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,753 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,765 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,767 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,777 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,778 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,788 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,790 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,803 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,803 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,814 - Factify - INFO - Received prediction request for text length: 116
+2026-08-01 21:06:13,815 - Factify - INFO - Cache hit for predict:479ccc93d1d77289d4c270482c6517f32d3ac15e10a0a3e9ed35763ecfde24f1
+2026-08-01 21:06:13,870 - Factify - INFO - Loading data from files...
+2026-08-01 21:06:13,901 - Factify - INFO - Removing 1 duplicate entries
+2026-08-01 21:06:13,912 - Factify - INFO - Data loaded successfully: 2 rows and 4 columns
+2026-08-01 21:06:13,923 - Factify - INFO - Loading data from files...
+2026-08-01 21:06:13,923 - Factify - ERROR - Error loading data: [Errno 2] No such file or directory: 'non_existent.csv'
+2026-08-01 21:06:13,995 - Factify - INFO - Cleaning text data...
+2026-08-01 21:06:14,005 - Factify - INFO - Text data cleaned successfully
+2026-08-01 21:06:14,011 - Factify - INFO - Cleaning text data...
+2026-08-01 21:06:14,012 - Factify - ERROR - Error cleaning dataframe: 'NoneType' object is not subscriptable
+2026-08-01 21:06:14,052 - Factify - WARNING - Model file not found at path
+2026-08-01 21:06:14,053 - Factify - WARNING - Tokenizer file not found at path
+2026-08-01 21:06:14,059 - Factify - WARNING - Model file not found at bad_path
+2026-08-01 21:06:14,061 - Factify - WARNING - Tokenizer file not found at bad_path
+2026-08-01 21:06:14,063 - Factify - INFO - Making prediction for text: test...
+2026-08-01 21:06:14,064 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 21:06:14,066 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 21:06:14,068 - Factify - ERROR - Model prediction failed: 'NoneType' object has no attribute 'predict'
+2026-08-01 21:06:14,104 - Factify - WARNING - Model file not found at p
+2026-08-01 21:06:14,105 - Factify - WARNING - Tokenizer file not found at t
+2026-08-01 21:06:14,106 - Factify - ERROR - Error preprocessing text for prediction: Tokenizer not loaded
+2026-08-01 21:06:14,126 - Factify - WARNING - Model file not found at C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\fake_news_detector.h5
+2026-08-01 21:06:14,127 - Factify - WARNING - Tokenizer file not found at C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\tokenizer.pickle
+2026-08-01 21:06:14,137 - Factify - WARNING - Model file not found at dummy
+2026-08-01 21:06:14,138 - Factify - WARNING - Tokenizer file not found at dummy
+2026-08-01 21:06:14,143 - Factify - INFO - Making prediction for text: test...
+2026-08-01 21:06:14,144 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 21:06:14,145 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 21:06:14,147 - Factify - INFO - Raw prediction result: [[0.9]]
+2026-08-01 21:06:14,147 - Factify - INFO - Prediction: REAL (probability: 0.9000)
+2026-08-01 21:06:14,155 - Factify - WARNING - Model file not found at p
+2026-08-01 21:06:14,156 - Factify - WARNING - Tokenizer file not found at t
+2026-08-01 21:06:14,166 - Factify - INFO - Tokenizing texts with vocab_size=100, max_length=100...
+2026-08-01 21:06:14,167 - Factify - INFO - Tokenization and padding completed successfully
+2026-08-01 21:06:14,174 - Factify - INFO - Tokenizing texts with vocab_size=10000, max_length=100...
+2026-08-01 21:06:14,175 - Factify - ERROR - Error in tokenization process: 'NoneType' object is not iterable
+2026-08-01 21:06:14,181 - Factify - INFO - Preparing data for model training...
+2026-08-01 21:06:14,182 - Factify - INFO - Tokenizing texts with vocab_size=10000, max_length=100...
+2026-08-01 21:06:14,184 - Factify - INFO - Tokenization and padding completed successfully
+2026-08-01 21:06:14,189 - Factify - INFO - Data prepared: X_train shape=(1, 100), X_test shape=(1, 100)
+2026-08-01 21:06:14,194 - Factify - INFO - Preparing data for model training...
+2026-08-01 21:06:14,195 - Factify - ERROR - Error preparing data: DataFrame must contain 'clean_text' column
+2026-08-01 21:06:14,201 - Factify - INFO - Building LSTM-GRU model with vocab_size=100, embedding_dim=100...
+2026-08-01 21:06:14,251 - Factify - INFO - LSTM-GRU model built successfully
+2026-08-01 21:06:14,258 - Factify - INFO - Building LSTM-GRU model with vocab_size=100, embedding_dim=100...
+2026-08-01 21:06:14,295 - Factify - ERROR - Error building model: Build error
+2026-08-01 21:06:14,308 - Factify - INFO - Training model for 1 epochs with batch_size=64...
+2026-08-01 21:06:14,309 - Factify - INFO - Model training completed successfully
+2026-08-01 21:06:14,317 - Factify - INFO - Training model for 5 epochs with batch_size=64...
+2026-08-01 21:06:14,318 - Factify - ERROR - Error training model: 'NoneType' object has no attribute 'fit'
+2026-08-01 21:06:14,328 - Factify - INFO - Model saved to model_path.h5
+2026-08-01 21:06:14,336 - Factify - ERROR - Error saving model: expected str, bytes or os.PathLike object, not NoneType
+2026-08-01 21:06:14,353 - Factify - INFO - Model saved to model.h5
+2026-08-01 21:06:14,356 - Factify - INFO - Tokenizer saved to tok.pickle
+2026-08-01 21:06:14,424 - Factify - INFO - Validation failed on /predict: Text is too short (10 characters). Please provide at least 50 characters so the analysis is meaningful.
+2026-08-01 21:06:14,440 - Factify - INFO - Validation failed on /predict: Text has too few words (2). Please provide at least 10 words so the analysis is meaningful.
+2026-08-01 21:06:14,456 - Factify - INFO - Validation failed on /predict: Text is too long (24999 characters). Please submit at most 20000 characters.
+2026-08-01 21:06:14,473 - Factify - INFO - Validation failed on /predict: Text cannot be empty or whitespace only.
+2026-08-01 21:06:14,489 - Factify - INFO - Validation failed on /predict: Text must contain readable words, not only digits or punctuation.
+2026-08-01 21:06:14,509 - Factify - INFO - Validation failed on /predict: Field required
+2026-08-01 21:06:14,525 - Factify - INFO - Validation failed on /predict: Text is too short (5 characters). Please provide at least 50 characters so the analysis is meaningful.
+2026-08-01 21:06:14,543 - Factify - INFO - Received prediction request for text length: 120
+2026-08-01 21:06:14,545 - Factify - INFO - Cache miss for predict:db339b7a7d4a648c0d4245578c48a175f9c66861ae69a17f747cde8b2fe5097a
+2026-08-01 21:06:14,559 - Factify - INFO - Model warm-up starting...
+2026-08-01 21:06:14,560 - Factify - INFO - Model warm-up completed in 0.00s
+2026-08-01 21:06:14,593 - Factify - INFO - Application starting up...
+2026-08-01 21:06:14,594 - Factify - INFO - Model warm-up starting...
+2026-08-01 21:06:14,594 - Factify - ERROR - Model warm-up failed: boom
+2026-08-01 21:06:14,599 - Factify - INFO - Application shutting down...
+2026-08-01 21:06:14,621 - Factify - INFO - Application starting up...
+2026-08-01 21:06:14,626 - Factify - INFO - Application shutting down...
+2026-08-01 21:16:12,122 - Factify - INFO - Loading model from C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\fake_news_detector.h5
+2026-08-01 21:16:12,435 - Factify - INFO - Model loaded successfully
+2026-08-01 21:16:12,438 - Factify - INFO - Loading tokenizer from C:\Users\emon1\Desktop\project-1\Factify\backend\models\saved_models\tokenizer.pickle
+2026-08-01 21:16:12,818 - Factify - INFO - Tokenizer loaded successfully
+2026-08-01 21:16:12,860 - Factify - INFO - Application starting up...
+2026-08-01 21:16:12,860 - Factify - INFO - Model warm-up starting...
+2026-08-01 21:16:12,860 - Factify - INFO - Making prediction for text: the quick brown fox jumps over the lazy dog...
+2026-08-01 21:16:13,972 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 21:16:13,978 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 21:16:14,661 - Factify - INFO - Raw prediction result: [[0.00207656]]
+2026-08-01 21:16:14,661 - Factify - INFO - Prediction: FAKE (probability: 0.0021)
+2026-08-01 21:16:14,661 - Factify - INFO - Model warm-up completed in 1.80s
+2026-08-01 21:16:23,259 - Factify - INFO - Validation failed on /predict: Text is too short (5 characters). Please provide at least 50 characters so the analysis is meaningful.
+2026-08-01 21:16:34,236 - Factify - INFO - Validation failed on /predict: Text is too short (5 characters). Please provide at least 50 characters so the analysis is meaningful.
+2026-08-01 21:16:35,262 - Factify - INFO - Validation failed on /predict: Text is too short (5 characters). Please provide at least 50 characters so the analysis is meaningful.
+2026-08-01 21:17:12,994 - Factify - INFO - Received prediction request for text length: 167
+2026-08-01 21:17:12,999 - Factify - INFO - Cache miss for predict:5dbfb308ad0d618f0c861357a0d2c7571e731dca75d61566095e6dc3090ef3dc
+2026-08-01 21:17:13,002 - Factify - INFO - Making prediction for text: Sir, I am preparing for big tech company sde 1 rol...
+2026-08-01 21:17:13,002 - Factify - INFO - Text preprocessing and padding successful
+2026-08-01 21:17:13,006 - Factify - INFO - Calling model.predict on shape (1, 100) with dtype int32...
+2026-08-01 21:17:13,423 - Factify - INFO - Raw prediction result: [[0.0025426]]
+2026-08-01 21:17:13,423 - Factify - INFO - Prediction: FAKE (probability: 0.0025)
