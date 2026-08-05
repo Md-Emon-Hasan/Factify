@@ -6,9 +6,9 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-blue?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-The proliferation of fake news presents significant challenges to information integrity. The core problem of this project is to automatically distinguish between fake and real news articles based solely on their textual content. This system automatically classifies news articles as "real" or "fake" with 99% accuracy.
+Fake news spreads faster than anyone can fact-check it, and judging an article's trustworthiness comes down to gut feel — a call that doesn't scale. **Factify** reads an article's text and tells you whether it looks real or fabricated, based on patterns in the writing. It always shows **how confident it is**, and refuses to guess on text too short to judge fairly, cutting manual review time for newsrooms and moderators.
 
-Modern social media platforms and online news outlets enable the rapid dissemination of information, but they also facilitate the widespread propagation of intentionally false or misleading content—commonly known as fake news. This phenomenon undermines public trust, distorts democratic processes, and can lead to tangible harms such as public health scares or financial market disruptions.
+Under the hood, a **FastAPI** backend (Python 3.9) serves a **TensorFlow/Keras LSTM-GRU** model — embedding into LSTM into GRU into a sigmoid output — trained on a labeled news corpus at **99% accuracy** on held-out data. Text is cleaned with **NLTK** and tokenized before inference, rendered through a **React (Vite) / Tailwind** frontend. Alongside that core: a **TTL cache** that skips repeat inference, **proxy-aware rate limiting**, **model warm-up**, strict input validation, and a **Dockerized, GitHub Actions** CI/CD pipeline — the gap between a notebook experiment and a production-ready service.
 
 [![Factify Demo](https://github.com/user-attachments/assets/24904cfe-8c32-4a65-aa4d-48bc18e45e5e)](https://github.com/user-attachments/assets/24904cfe-8c32-4a65-aa4d-48bc18e45e5e)
 
@@ -358,7 +358,8 @@ The project uses GitHub Actions for automated testing and deployment checks:
 ## **Developed By**
 
 **Md Emon Hasan**  
-**Email:** emon.mlengineer@gmail.com
+**Email:** emon.mlengineer@gmail.com  
+**Portfolio:** [Md-Emon-Hasan](https://emonlabs-ai.hitechparks.com/)  
 **WhatsApp:** [+8801834363533](https://wa.me/8801834363533)  
 **GitHub:** [Md-Emon-Hasan](https://github.com/Md-Emon-Hasan)  
 **LinkedIn:** [Md Emon Hasan](https://www.linkedin.com/in/md-emon-hasan-695483237/)  
